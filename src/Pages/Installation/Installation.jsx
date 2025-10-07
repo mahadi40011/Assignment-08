@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MyApps = () => {
+const Installation = () => {
   return (
     <div>
       <p>from my apps</p>
@@ -8,4 +8,4 @@ const MyApps = () => {
   );
 };
 
-export default MyApps;
+export default Installation;
