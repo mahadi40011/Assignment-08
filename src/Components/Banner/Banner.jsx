@@ -24,13 +24,13 @@ const Banner = () => {
         an impact.
       </p>
       <div className="flex flex-col md:flex-row gap-2 md:gap-5 my-4 md:my-7 lg:my-10">
-        <div onClick={()=> window.open("https://play.google.com/store/apps?hl=en", "_blank")} className="flex justify-center items-center gap-1.5 md:gap-3 border border-gray-300 rounded-lg w-[200px] md:w-fit py-1 md:py-2 px-5 hover:bg-gray-200 cursor-pointer">
+        <div onClick={()=> window.open("https://play.google.com/store/apps?hl=en", "_blank")} className="flex justify-center items-center gap-1.5 md:gap-3 border border-gray-300 rounded-lg w-[200px] md:w-fit py-1 md:py-2 px-5 bg-gray-200 hover:bg-gray-300 cursor-pointer">
           <img src={googlePlayImg} alt="" />
           <p className="font-semibold text-base md:text-xl">Google Play</p>
         </div>
         <div
           onClick={() => navigateToAppStore("/apps")}
-          className="flex justify-center items-center gap-1.5 md:gap-3 border border-gray-300 rounded-lg w-[200px] md:w-fit py-1 md:py-2 px-5 hover:bg-gray-200 cursor-pointer"
+          className="flex justify-center items-center gap-1.5 md:gap-3 border border-gray-300 rounded-lg w-[200px] md:w-fit py-1 md:py-2 px-5 bg-gray-200 hover:bg-gray-300 cursor-pointer"
         >
           <img src={appStore} alt="" />
           <p className="font-semibold text-base md:text-xl">App Store</p>
