@@ -1,0 +1,361 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/sc9W174/download.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "description": "TikTok is a leading short-form video platform that allows users to create and share 15-second to 3-minute videos on any topic. It's built on a highly sophisticated recommendation engine, the 'For You' page, which curates content to each user's taste, driving its viral nature. Key features include an extensive library of music and sounds, creative filters and effects, stitching and duetting capabilities for collaborative content creation, and live streaming. It serves as a global stage for self-expression and cultural trends, with use-cases spanning entertainment, education, marketing, and activism. Users can engage with content through likes, shares, comments, and saving sounds to create their own videos, fostering a highly interactive community.",
+    "size": 150,
+    "reviews": 65000000,
+    "ratingAvg": 4.5,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 12500000 },
+      { "name": "5 star", "count": 49000000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/4Zvc2Dnc/download-1.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "YouTube is the world's largest video-sharing platform, offering an immense library of user-generated and corporate media content. Its primary purpose is to allow users to upload, view, rate, share, and comment on videos, and subscribe to other users (creators). Features include high-definition streaming, live broadcasts, personalized video recommendations, and the 'YouTube Shorts' short-form video feature. Use-cases are broad, covering entertainment (music, vlogs, movies), education (tutorials, lectures), news, and brand promotion. The application supports various monetization methods for creators, such as ad revenue, channel memberships, and Super Chat, establishing itself as a dominant force in digital video consumption.",
+    "size": 135,
+    "reviews": 110000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5500000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 7500000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 68000000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/vCYzfyN2/download.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "WhatsApp is a cross-platform, encrypted instant messaging and Voice-over-IP (VoIP) service. It allows users to send text messages, voice messages, make voice and video calls, and share images, documents, and user locations. The service operates over mobile cellular networks and Wi-Fi, using end-to-end encryption to secure communications, ensuring privacy. Key features include group chats, broadcast lists, and the 'Status' feature for sharing ephemeral updates. Its use-cases are primarily personal communication, but the 'WhatsApp Business' version extends its utility for small and large businesses to interact with customers for support, marketing, and sales, making it a ubiquitous tool for global connectivity.",
+    "size": 55,
+    "reviews": 150000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 9500000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 100000000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/zTDcNRpZ/download-2.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "description": "Netflix is the world's leading subscription streaming service for watching TV episodes and movies on your phone, tablet, or TV. The application provides thousands of titles, including original series, documentaries, and feature films across virtually every genre. Key features include personalized content recommendations based on viewing history, multiple user profiles, offline downloads for viewing without an internet connection, and parental controls. Its purpose is to deliver an unparalleled on-demand entertainment experience. Use-cases revolve around casual viewing, binging entire series, and discovering new content from their exclusive library, replacing traditional scheduled television viewing.",
+    "size": 85,
+    "reviews": 12000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 720000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1180000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/S9YGXmg/images.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon.com, Inc.",
+    "description": "Amazon Shopping is the mobile gateway to the vast Amazon retail marketplace. The app's core purpose is to enable users to browse, search, compare prices, read reviews, and place orders for millions of products across countless categories, including electronics, apparel, and groceries. Essential features include 1-Click ordering, secure payment processing, personalized recommendations, order tracking, and integration with Amazon Prime services like fast, free shipping. Its use-cases span everyday convenience shopping, checking daily deals, and managing a household's needs directly from a mobile device, effectively bringing the entirety of the world's largest online retailer into the palm of the user's hand.",
+    "size": 110,
+    "reviews": 55000000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 2200000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 36000000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/JWFR059y/download-3.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Google Maps is a web mapping service that provides detailed geographical information, including road maps, satellite imagery, and aerial photography. Its core purpose is navigation and local exploration, offering real-time GPS-powered turn-by-turn navigation for driving, walking, cycling, and public transit. Key features include live traffic conditions, street view panoramas for visual context, and a powerful local search engine to find businesses, restaurants, and points of interest. Use-cases range from planning a cross-country road trip to finding the quickest public transport route during a daily commute or exploring a foreign city, making it an indispensable tool for spatial orientation and travel.",
+    "size": 90,
+    "reviews": 22000000,
+    "ratingAvg": 4.1,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2800000 },
+      { "name": "4 star", "count": 5500000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/BV0qJ2kn/download-4.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "description": "Microsoft Teams is a unified communication and collaboration platform that combines workplace chat, video meetings, file storage, and application integration. Designed primarily for businesses and educational institutions, its purpose is to centralize teamwork and communication in a single hub. Key features include persistent, threaded chat channels, HD audio/video conferencing, screen sharing, and seamless integration with the Microsoft 365 suite (Word, Excel, PowerPoint). Use-cases include hosting large remote meetings, managing departmental projects, conducting virtual classroom sessions, and facilitating real-time document co-authoring, serving as a comprehensive digital workplace solution.",
+    "size": 120,
+    "reviews": 1200000,
+    "ratingAvg": 3.9,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/Kx0zQpxx/download-5.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "description": "Zoom is a cloud-based peer-to-peer software platform used for teleconferencing, telecommuting, distance education, and social relations. Its main purpose is to provide a reliable, high-quality, and easy-to-use video conferencing solution. Features include high-definition video and audio, virtual backgrounds, screen sharing with annotation tools, and meeting recording. It supports meetings ranging from small one-on-one calls to large webinars and virtual events. Use-cases dramatically expanded during the shift to remote work and learning, becoming the standard for business meetings, virtual classrooms, family gatherings, and large-scale public presentations, valued for its stability and user-friendly interface.",
+    "size": 75,
+    "reviews": 15000000,
+    "ratingAvg": 4.7,
+    "downloads": 700000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/G41nmg4T/download-6.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "description": "Duolingo is a freemium language-learning platform and crowdsourced text translation service. The application uses gamification techniques, such as skill trees, points, and streak counting, to make language acquisition fun and motivating. Its purpose is to provide free, bite-sized language lessons that are accessible to everyone. Key features include over 40 languages to learn, personalized practice sessions, a social element with leaderboards, and 'Stories' to improve reading comprehension. Use-cases cover everything from a traveler learning basic phrases for a trip to a student supplementing formal education, or an enthusiast committing to long-term fluency through daily, manageable practice sessions.",
+    "size": 250,
+    "reviews": 18000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 13500000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/8D6JkgWc/download-7.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "description": "Pinterest is a visual discovery engine and social media service designed to enable users to save and discover information (ideas, images, links) on the web using images and, on a smaller scale, GIFs and videos. The platform's core purpose is to inspire users to 'Pin' content—saving it to personalized, themed collections called 'boards.' Features include visual search technology (Lens), personalized home feeds, and the ability to follow other users and specific boards. Use-cases are broad, including planning home renovation projects, discovering new recipes, curating fashion inspiration, organizing travel itineraries, and serving as a powerful visual marketing and e-commerce tool for businesses.",
+    "size": 80,
+    "reviews": 8500000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 450000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 5500000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/HDkthtQX/download-8.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "description": "Uber is a mobility as a service (MaaS) provider, revolutionizing personal transportation and food delivery through a simple mobile application. Its purpose is to match riders with drivers and customers with food couriers swiftly and efficiently. Features include real-time GPS tracking of the ride/delivery, in-app cashless payment, ride-splitting options, and detailed driver/courier ratings. Use-cases include on-demand personal rides for daily commute or late-night travel, scheduled rides to the airport, and leveraging 'Uber Eats' for ordering meals from local restaurants. The app provides price estimates upfront, ensuring transparency and convenience in urban mobility.",
+    "size": 170,
+    "reviews": 25000000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 14000000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/N2XJGnY2/download-9.png",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "description": "Airbnb is an online marketplace for lodging, primarily homestays, and tourism experiences. It connects people who want to rent out their homes or spare rooms with people who are looking for accommodation. The core purpose is to offer travelers unique, local, and diverse lodging options that often provide a more authentic experience than traditional hotels. Key features include detailed host profiles and guest reviews, secure in-app booking and payment, and 'Experiences' for local activities hosted by experts. Use-cases range from booking a short-term vacation rental, finding an apartment for an extended work trip, or discovering unique activities, fostering a sense of belonging anywhere in the world.",
+    "size": 190,
+    "reviews": 6000000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 4000000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/xtQxR1DX/download-10.png",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings, Inc.",
+    "description": "PayPal is an online payment system that supports online money transfers and serves as an electronic alternative to traditional paper methods like checks and money orders. Its purpose is to facilitate secure, instant payment processing for both consumers and businesses worldwide. Key features include peer-to-peer money transfers, buyer and seller protection policies, and a 'Pay in 4' installment payment option. Use-cases are diverse, spanning online shopping checkouts, sending money to friends and family, receiving payments for freelance work, and managing international transactions, making it one of the most trusted and globally accepted digital wallets for commerce.",
+    "size": 130,
+    "reviews": 10000000,
+    "ratingAvg": 4.0,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 3500000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/XrrNDq96/download-11.png",
+    "title": "Adobe Acrobat Reader",
+    "companyName": "Adobe Inc.",
+    "description": "Adobe Acrobat Reader is the industry-standard software for viewing, printing, and commenting on Portable Document Format (PDF) files. The application's core purpose is to ensure documents are viewed consistently across all platforms and devices, preserving formatting and content integrity. Key features include annotation tools (highlighting, sticky notes), electronic signature capabilities, form filling, and cloud storage integration with Adobe Document Cloud. Use-cases are fundamental to modern digital life, involving reading e-books, reviewing business contracts, filling out official application forms, and securely sharing documents across professional and personal networks, making it essential for document workflow.",
+    "size": 95,
+    "reviews": 2500000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 75000 },
+      { "name": "3 star", "count": 175000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1600000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/vSmGFwS/download-1.jpg",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "description": "Canva is an online graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. The application's purpose is to democratize design, enabling users without formal training to produce professional-quality visuals through an intuitive drag-and-drop interface. Key features include thousands of pre-made templates, a massive library of stock photos and elements, photo editing tools, and team collaboration capabilities. Use-cases are popular among entrepreneurs, students, educators, and social media managers for creating engaging marketing materials, school projects, personal invitations, and consistent brand assets across all digital channels.",
+    "size": 60,
+    "reviews": 5500000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 4100000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/MDzNwn1P/download-12.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "Discord is a VoIP, instant messaging, and digital distribution platform designed to create communities (servers) centered around specific interests, such as gaming, education, and social groups. Its purpose is to allow users to communicate with voice calls, video calls, text messaging, and media sharing in private chats or as part of large, public communities. Features include organized text and voice channels, customizable user roles, screensharing for streaming games or presentations, and bot integrations for automation and moderation. Use-cases have expanded from gaming communication to becoming a versatile platform for online clubs, study groups, support networks, and professional communities, valued for its real-time, high-quality communication tools.",
+    "size": 180,
+    "reviews": 9000000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/3y2wW7vc/download-13.png",
+    "title": "Genshin Impact",
+    "companyName": "miHoYo (HoYoverse)",
+    "description": "Genshin Impact is an open-world action role-playing game featuring a fantasy world called Teyvat, where players take on the role of the Traveler searching for a lost twin. The game's purpose is to provide an immersive, exploration-driven experience with deep character progression and elemental combat. Features include a vast, beautiful world to explore, a 'Gacha' system for acquiring new characters and weapons, co-op multiplayer for teaming up with friends, and a rich narrative with frequent updates. Use-cases involve long-term engagement for dedicated gamers who enjoy story-rich exploration, strategic combat challenges (like the Spiral Abyss), and the collection and development of a diverse roster of characters.",
+    "size": 300,
+    "reviews": 4000000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 2400000 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/yFRHsqZm/download-2.jpg",
+    "title": "Candy Crush Saga",
+    "companyName": "King",
+    "description": "Candy Crush Saga is a popular free-to-play match-three puzzle video game. The game’s purpose is to challenge players with hundreds of levels by swapping colored candy pieces on a game board to make a match of three or more of the same color, eliminating those candies and replacing them with new ones. Key features include special candies with unique powers (e.g., striped, wrapped, color bomb), various game modes like 'Target Score' and 'Collect Ingredients,' and a social aspect allowing connection with Facebook friends. Its use-cases are primarily casual gaming for quick bursts of entertainment, providing a simple yet addictive distraction that appeals to a massive, global audience across all age groups.",
+    "size": 85,
+    "reviews": 45000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 29500000 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/pBw8ZwvG/download-14.png",
+    "title": "Headspace",
+    "companyName": "Headspace, Inc.",
+    "description": "Headspace is a meditation and mindfulness application dedicated to improving the health and happiness of the world. Its purpose is to teach users how to meditate and live mindfully through a vast library of guided audio sessions. Key features include 'The Basics' course for beginners, hundreds of themed courses (e.g., stress, sleep, focus), 'Sleepcasts' for better sleep, and short 'minis' for quick, on-the-go meditations. Use-cases involve reducing stress and anxiety, improving concentration and focus, and developing better sleep hygiene. The app acts as a personal guide to mental wellness, helping users build a consistent meditation habit regardless of their experience level.",
+    "size": 160,
+    "reviews": 1500000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 65000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/5gf6sk0n/images-q-tbn-ANd9-Gc-T7yi-TTT1-Frefjgbal-MUjm60di-Kqvk-D0x-K5-NQ-s.png",
+    "title": "Peloton",
+    "companyName": "Peloton Interactive, Inc.",
+    "description": "The Peloton App delivers thousands of live and on-demand fitness classes across various disciplines, including cycling, running, strength, yoga, and meditation. Its purpose is to bring the energy and experience of a studio class directly to the user, whether they own Peloton hardware or not. Features include real-time metrics tracking, a live leaderboard for friendly competition, curated playlists, and a wide variety of world-class instructors. Use-cases include at-home total body workouts, specialized training plans for specific goals like a marathon, or supplementing existing gym routines. The app allows for a highly flexible and engaging approach to personal fitness and wellness.",
+    "size": 150,
+    "reviews": 500000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  }]

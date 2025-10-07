@@ -11,9 +11,13 @@ const router = createBrowserRouter([
     Component: MainLayout,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
-      { index: true, Component: Home },
+      {
+        index: true,
+        loader: () => fetch ("FakeData.json"),
+        Component: Home,
+      },
       { path: "/apps", Component: Apps },
-      {path: "/installation", Component: Installation}
+      { path: "/installation", Component: Installation },
     ],
   },
 ]);
