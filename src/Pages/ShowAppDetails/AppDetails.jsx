@@ -20,7 +20,7 @@ const AppDetails = () => {
         <div className="grid grid-cols-4 ">
           <div className="col-span-1 flex justify-center items-center bg-white rounded-2xl">
             <img
-              className="w-full h-fit rounded-full"
+              className="w-full h-fit "
               src={image}
               alt={title}
             />

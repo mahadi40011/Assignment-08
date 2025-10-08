@@ -7,6 +7,7 @@ import { Link } from "react-router";
 const Home = () => {
 
 const {allApps, loading} = useAllData();
+if(loading) return <p>Loading ...</p>
 const trendingApp = allApps.slice(0, 8)
 
   return (
