@@ -8,8 +8,8 @@ import { TiThMenu } from "react-icons/ti";
 const Navbar = () => {
   const navItems = [
     { id: 0, name: "Home", path: "/" },
-    { id: 0, name: "Apps", path: "/apps" },
-    { id: 0, name: "Installation", path: "/installation" },
+    { id: 1, name: "Apps", path: "/apps" },
+    { id: 2, name: "Installation", path: "/installation" },
   ];
 
   const navigate = useNavigate();
@@ -25,7 +25,9 @@ const Navbar = () => {
           <div className="navbar-start">
             <div className="dropdown dropdown-bottom">
               <div tabIndex={0} role="button" className="mr-2 lg:hidden">
-                <span><TiThMenu size={28}></TiThMenu></span>
+                <span>
+                  <TiThMenu size={28}></TiThMenu>
+                </span>
               </div>
               <ul
                 tabIndex={0}
@@ -33,7 +35,7 @@ const Navbar = () => {
               >
                 {navItems.map((item) => (
                   <NavLink
-                  key={item.id}
+                    key={item.id}
                     to={item.path}
                     className={({ isActive }) =>
                       `${
@@ -52,7 +54,11 @@ const Navbar = () => {
               onClick={handleLogoClick}
               className="flex justify-center items-center gap-2 cursor-pointer"
             >
-              <img src={logo} alt="logo" className="w-10 h-10 md:w-12 md:h-12" />
+              <img
+                src={logo}
+                alt="logo"
+                className="w-10 h-10 md:w-12 md:h-12"
+              />
               <span className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent text-3xl font-bold hidden md:flex lg:flex">
                 HERO.IO
               </span>
@@ -60,9 +66,9 @@ const Navbar = () => {
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              {navItems.map((item, i) => (
+              {navItems.map((item) => (
                 <NavLink
-                  key={i}
+                  key={item.id}
                   to={item.path}
                   className={({ isActive }) =>
                     `font-semibold text-xl ml-5 ${

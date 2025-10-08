@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Apps from "../Pages/Apps/Apps";
 import Installation from "../Pages/Installation/Installation";
+import ShowAppDetails from "../Pages/ShowAppDetails/ShowAppDetails";
 
 const router = createBrowserRouter([
   {
@@ -13,11 +14,12 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: () => fetch ("FakeData.json"),
+        loader: () => fetch("FakeData.json"),
         Component: Home,
       },
       { path: "/apps", Component: Apps },
       { path: "/installation", Component: Installation },
+      { path: "/app-details/:id", Component: ShowAppDetails },
     ],
   },
 ]);
