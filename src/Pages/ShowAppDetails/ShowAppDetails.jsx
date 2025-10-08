@@ -24,7 +24,7 @@ const ShowAppDetails = () => {
   const { description } = clickedApps;
 
   return (
-    <div className="my-20">
+    <div className="my-6 sm:my-10 md:my-14 lg:my-20 p-2">
       <div>
         <AppDetails></AppDetails>
       </div>
@@ -38,7 +38,7 @@ const ShowAppDetails = () => {
 
       <div className="mt-15">
         <h1 className="font-semibold text-2xl mb-5">Description</h1>
-        <p className="text-xl text-justify text-gray-500">{description}</p>
+        <p className="md:text-xl text-start md:text-justify text-gray-500">{description}</p>
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-base-100 shadow-sm sticky top-0">
+    <div className="bg-base-100 shadow-sm z-[100] sticky top-0">
       <ContainerLayout>
         <div className="navbar ">
           <div className="navbar-start">

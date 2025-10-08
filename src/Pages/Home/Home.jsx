@@ -18,7 +18,7 @@ const trendingApp = allApps.slice(0, 8)
           <h1 className="font-bold text-2xl md:text-3xl lg:text-5xl mb-1 md:mb-2 lg:mb-4">Trending Apps</h1>
           <p className="text-sm md:text-lg lg:text-xl text-gray-500">Explore All Trending Apps on the Market developed by us</p>
         </div>
-        <div className="grid grid-cols-4 gap-4 my-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 my-10 px-2  md:px-0">
           {
             trendingApp.map(app => <AppCard key={app.id} app={app}></AppCard>)
           }
