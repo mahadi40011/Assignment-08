@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import useAllData from "../../Hooks/useAllData";
 import AppCard from "../../Components/AppCard/AppCard";
+import NotFound from "../../Components/NotFound/NotFound";
 
 const Apps = () => {
   const { allApps, loading } = useAllData();
@@ -26,7 +27,7 @@ const Apps = () => {
         </p>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center">
+      <div className="flex flex-col-reverse gap-2 md:flex-row justify-between items-center">
         <span className="font-semibold text-2xl">
           ({searchApps.length}) Apps Found
         </span>
@@ -46,6 +47,10 @@ const Apps = () => {
           <AppCard key={app.id} app={app}></AppCard>
         ))}
       </div>
+
+      {
+        !searchApps.length && <NotFound setSearch={setSearch}></NotFound> 
+      }
     </div>
   );
 };
