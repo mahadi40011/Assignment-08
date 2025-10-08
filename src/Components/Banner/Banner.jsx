@@ -3,10 +3,16 @@ import googlePlayImg from "../../assets/google-play.png";
 import appStore from "../../assets/app-store.png";
 import bannerImg from "../../assets/hero.png";
 import { useNavigate } from "react-router";
+import useAllData from "../../Hooks/useAllData";
 
 const Banner = () => {
-
   const navigateToAppStore = useNavigate();
+  const {allApps} = useAllData()
+
+  const totalDownload = allApps.map(app => app.downloads).reduce((a,b) => a + b , 0)
+  const totalReviews = allApps.map(app => app.reviews).reduce((a,b) => a + b , 0)
+  const activeApps = allApps.length
+  console.log(totalDownload)
 
   return (
     <div className="flex flex-col justify-center items-center mt-8 md:mt-14 lg:mt-20">
@@ -44,19 +50,19 @@ const Banner = () => {
         </h1>
         <div className="flex gap-3 md:gap-5 lg:gap-7 justify-center items-center">
           <div className="flex flex-col space-y-2  md:space-y-3 lg:space-y-4">
-            <span className="text-xs md:text-sm lg:text-base">Total Downloads</span>
-            <span className="font-bold text-2xl md:text-4xl lg:text-6xl">4522</span>
+            <span className="text-sm md:text-[17px] lg:text-xl">Total Downloads</span>
+            <span className="font-bold text-2xl md:text-4xl lg:text-6xl">{totalDownload < 1000000000 ? `${(totalDownload / 1000000).toFixed(1)}M` : `${(totalDownload / 1000000000).toFixed(1)}B`} </span>
             <span className="text-xs md:text-sm lg:text-base">21% more than last month</span>
           </div>
           <div className="flex flex-col space-y-2  md:space-y-3 lg:space-y-4">
-            <span className="text-xs md:text-sm lg:text-base">Total Reviews</span>
-            <span className="font-bold text-2xl md:text-4xl lg:text-6xl">4522</span>
+            <span className="text-sm md:text-[17px] lg:text-xl">Total Reviews</span>
+            <span className="font-bold text-2xl md:text-4xl lg:text-6xl">{totalReviews < 1000000000 ? `${(totalReviews / 1000000).toFixed(1)}M` : `${(totalReviews / 1000000000).toFixed(1)}B`}</span>
             <span className="text-xs md:text-sm lg:text-base">45% more than last month</span>
           </div>
           <div className="flex flex-col space-y-2  md:space-y-3 lg:space-y-4">
-            <span className="text-xs md:text-sm lg:text-base">Active Apps</span>
-            <span className="font-bold text-2xl md:text-4xl lg:text-6xl">4522</span>
-            <span className="text-xs md:text-sm lg:text-base">31 more will Launch</span>
+            <span className="text-sm md:text-[17px] lg:text-xl">Active Apps</span>
+            <span className="font-bold text-2xl md:text-4xl lg:text-6xl">{activeApps}</span>
+            <span className="text-xs md:text-sm lg:text-base">6 more will Launch</span>
           </div>
         </div>
       </div>
