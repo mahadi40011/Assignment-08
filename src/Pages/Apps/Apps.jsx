@@ -5,8 +5,9 @@ import NotFound from "../../Components/NotFound/NotFound";
 import LoadingSpinner from "../../Components/LoadingSpinner/LoadingSpinner";
 
 const Apps = () => {
-  const { allApps, loading} = useAllData();
+  const { allApps, loading } = useAllData();
   const [search, setSearch] = useState("");
+  const [manualLoading, setManualLoading] = useState(false);
 
   const searchValue = search.trim().toLowerCase();
 
@@ -14,7 +15,18 @@ const Apps = () => {
     ? allApps.filter((app) => app.title.toLowerCase().includes(searchValue))
     : allApps;
 
-  if (loading) return <LoadingSpinner></LoadingSpinner>
+  const handleChange = (e) => {
+    const newValue = e.target.value;
+    setSearch(newValue);
+
+    setManualLoading(true);
+
+    setTimeout(() => {
+      setManualLoading(false);
+    }, 300);
+  };
+
+  if (loading) return <LoadingSpinner></LoadingSpinner>;
 
   return (
     <div className="my-8 md:my-14 lg:my-20">
@@ -34,7 +46,7 @@ const Apps = () => {
         <label className="input w-[280px] ">
           <input
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={(e) => handleChange(e)}
             type="search"
             required
             placeholder="Search App"
@@ -42,15 +54,18 @@ const Apps = () => {
         </label>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 px-2 ">
-        {searchApps.map((app) => (
-          <AppCard key={app.id} app={app}></AppCard>
-        ))}
+      <div>
+        {manualLoading ? (
+          <LoadingSpinner height="h-[400px]"></LoadingSpinner>
+        ) : (
+          <div className="grid grid-cols-1 h- sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 px-2 ">
+            {searchApps.map((app) => (
+              <AppCard key={app.id} app={app}></AppCard>
+            ))}
+          </div>
+        )}
       </div>
-
-      {
-        !searchApps.length && <NotFound setSearch={setSearch}></NotFound> 
-      }
+        {manualLoading ? "" : !searchApps.length && <NotFound setSearch={setSearch}></NotFound>}
     </div>
   );
 };
