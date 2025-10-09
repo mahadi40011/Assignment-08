@@ -31,8 +31,7 @@ const InstallAppCard = ({ app, myApps, setMyApps }) => {
             <div className="flex items-center justify-center gap-1 text-green-400  w-fit">
               <GoDownload></GoDownload>
               <span className="text-lg font-semibold  ">
-                {" "}
-                {downloads / 1000000} M
+                {downloads < 1_000_000_000 ? `${(downloads / 1_000_000).toFixed(0)}M` : `${(downloads / 1_000_000_000).toFixed(0)}B`}
               </span>
             </div>
             <div className="flex items-center justify-center gap-1 text-[#FF8811]  w-fit">

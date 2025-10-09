@@ -51,12 +51,12 @@ const Banner = () => {
         <div className="flex gap-3 md:gap-5 lg:gap-7 justify-center items-center">
           <div className="flex flex-col space-y-2  md:space-y-3 lg:space-y-4">
             <span className="text-sm md:text-[17px] lg:text-xl">Total Downloads</span>
-            <span className="font-bold text-2xl md:text-4xl lg:text-6xl">{totalDownload < 1000000000 ? `${(totalDownload / 1000000).toFixed(1)}M` : `${(totalDownload / 1000000000).toFixed(1)}B`} </span>
+            <span className="font-bold text-2xl md:text-4xl lg:text-6xl">{totalDownload < 1_000_000_000 ? `${(totalDownload / 1_000_000).toFixed(1)}M` : `${(totalDownload / 1_000_000_000).toFixed(1)}B`} </span>
             <span className="text-xs md:text-sm lg:text-base">21% more than last month</span>
           </div>
           <div className="flex flex-col space-y-2  md:space-y-3 lg:space-y-4">
             <span className="text-sm md:text-[17px] lg:text-xl">Total Reviews</span>
-            <span className="font-bold text-2xl md:text-4xl lg:text-6xl">{totalReviews < 1000000000 ? `${(totalReviews / 1000000).toFixed(1)}M` : `${(totalReviews / 1000000000).toFixed(1)}B`}</span>
+            <span className="font-bold text-2xl md:text-4xl lg:text-6xl">{totalReviews < 1_000_000_000 ? `${(totalReviews / 1_000_000).toFixed(1)}M` : `${(totalReviews / 1_000_000_000).toFixed(1)}B`}</span>
             <span className="text-xs md:text-sm lg:text-base">45% more than last month</span>
           </div>
           <div className="flex flex-col space-y-2  md:space-y-3 lg:space-y-4">

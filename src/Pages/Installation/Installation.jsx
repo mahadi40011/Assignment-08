@@ -18,9 +18,15 @@ const Installation = () => {
       setMyApps(installedApps)
   }, [allApps, loading]);
 
-  const handleClicked= (type)=> {
-    setSort(type)
-  }
+  const sortedItem = (()=> {
+    if(sort === "asc"){
+      return [...myApps].sort((a, b) => a.downloads - b.downloads)
+    }
+    else if(sort === "dsc"){
+      return [...myApps].sort((a, b) => b.downloads - a.downloads)
+    }
+    else return myApps
+  })()
 
   return (
     <div className="my-8 md:my-14 lg:my-20">
@@ -34,19 +40,20 @@ const Installation = () => {
       </div>
 
       <div className="flex flex-col-reverse gap-2 md:flex-row justify-between items-center">
-        <span className="font-semibold text-2xl">{myApps.length} Apps Found</span>
+        <span className="font-semibold text-2xl">{sortedItem.length} Apps Found</span>
         <select
-          defaultValue={`${sort !== "" ? "Sort by Size" : sort} `}
+          value={sort}
+          onChange={(e)=> setSort(e.target.value)}
           className="select focus:outline-none border border-gray-400 w-52 text-lg font-medium"
         >
-          <option disabled>Sort by Size</option>
-          <option onClick={()=> handleClicked("High to Low")}>High to Low</option>
-          <option onClick={()=> handleClicked("High to Low")}>Low to High</option>
+          <option disabled value="">Sort by Download</option>
+          <option value="asc">Low to High</option>
+          <option value="dsc">High to Low</option>
         </select>
       </div>
 
       {
-        myApps.map(app => <InstallAppCard key={app.id} app={app} setMyApps={setMyApps} myApps={myApps}></InstallAppCard>)
+        sortedItem.map(app => <InstallAppCard key={app.id} app={app} setMyApps={setMyApps} myApps={myApps}></InstallAppCard>)
       }
     </div>
   );
