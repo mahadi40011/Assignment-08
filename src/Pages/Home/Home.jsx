@@ -3,6 +3,7 @@ import Banner from "../../Components/Banner/Banner";
 import useAllData from "../../Hooks/useAllData";
 import AppCard from "../../Components/AppCard/AppCard";
 import { Link } from "react-router";
+import LoadingSpinner from "../../Components/LoadingSpinner/LoadingSpinner";
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const trendingApp = allApps.slice(0, 8)
 
   return (
     <div>
+      <LoadingSpinner></LoadingSpinner>
       <Banner></Banner>
 
       <div>
