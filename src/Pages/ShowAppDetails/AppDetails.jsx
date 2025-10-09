@@ -5,6 +5,7 @@ import downloadIcon from "../../assets/icon-downloads.png";
 import starIcon from "../../assets/icon-ratings.png";
 import reviewIcon from "../../assets/icon-review.png";
 import { setToLS } from "../../LocalStorage/LocalStorage";
+import Swal from "sweetalert2";
 
 const AppDetails = ({ installedApp }) => {
   const { id } = useParams();
@@ -14,24 +15,28 @@ const AppDetails = ({ installedApp }) => {
 
   const foundData = installedApp.find((singleId) => singleId === id);
 
-  useEffect(()=>{
+  useEffect(() => {
     if (foundData) {
-      setDisable(true)
-      setBtnText("Installed")
+      setDisable(true);
+      setBtnText("Installed");
     }
-    
-  },[])
+  }, []);
 
   if (loading) return <p>loading...</p>;
 
   const clickedApps = allApps.find((app) => app.id === Number(id));
   const { image, title, companyName, size, reviews, ratingAvg, downloads } =
     clickedApps;
-    
+
   const handleClicked = (id) => {
     setToLS(id);
     setDisable(true);
     setBtnText("Installed");
+    Swal.fire({
+      title: `${title} Successfully Install`,
+      icon: "success",
+      draggable: true,
+    });
   };
   return (
     <div>
