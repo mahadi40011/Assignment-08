@@ -36,12 +36,12 @@ const Installation = () => {
             <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-center mb-2 md:mb-4">
               Your Installed Apps
             </h1>
-            <p className="md:text-xl text-center text-gray-500 mb-6 px-2 md:mb-10">
+            <p className="md:text-xl text-center text-gray-500 px-2 md:mb-5">
               Explore All Trending Apps on the Market developed by us
             </p>
           </div>
 
-          <div className="flex flex-col-reverse gap-2 md:flex-row justify-between items-center">
+          <div className="sticky top-[70px] z-[90] py-5 bg-gray-100 flex flex-col-reverse gap-2 md:flex-row justify-between items-center">
             <span className="font-semibold text-2xl">
               {sortedItem.length} Apps Found
             </span>

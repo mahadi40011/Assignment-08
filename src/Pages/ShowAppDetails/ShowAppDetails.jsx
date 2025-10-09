@@ -29,7 +29,7 @@ const ShowAppDetails = () => {
   }, [loading, allApps, id]);
 
   if (loading) return <LoadingSpinner></LoadingSpinner>;
-  
+
   const clickedApps = allApps.find((app) => app.id === Number(id));
   const { image, title, companyName, size, reviews, ratingAvg, downloads, description } = clickedApps;
 
@@ -43,7 +43,6 @@ const allProps = {
   ratingAvg: ratingAvg,
   downloads: downloads
 }
-
 
   return (
     <div className="my-6 sm:my-10 md:my-14 lg:my-20 p-2">

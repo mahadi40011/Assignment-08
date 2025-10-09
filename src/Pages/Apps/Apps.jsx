@@ -27,7 +27,7 @@ const Apps = () => {
         </p>
       </div>
 
-      <div className="flex flex-col-reverse gap-2 md:flex-row justify-between items-center">
+      <div className="sticky top-[70px] z-[90] py-5 bg-gray-100 flex flex-col-reverse gap-2 md:flex-row justify-between items-center">
         <span className="font-semibold text-2xl">
           ({searchApps.length}) Apps Found
         </span>
@@ -42,7 +42,7 @@ const Apps = () => {
         </label>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4 px-2  md:px-0">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 px-2 ">
         {searchApps.map((app) => (
           <AppCard key={app.id} app={app}></AppCard>
         ))}
