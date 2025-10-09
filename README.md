@@ -1,16 +1,31 @@
-# React + Vite
+# 🦸‍♂️ HERO.APPS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Your Smart App Management Dashboard**
 
-Currently, two official plugins are available:
+HERO.APPS is a modern web application that lets you explore, install, and manage apps all in one place.  
+It works as a **mini app store dashboard**, allowing users to sort, analyze, and organize their favorite apps with ease.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📲 Browse all trending and popular apps  
+- 💾 Install & uninstall apps (saved in LocalStorage)  
+- 📈 Sort apps by download count (High → Low / Low → High)  
+- 🔍 Filter and explore apps quickly  
+- 💡 Clean, responsive, and modern user interface  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React.js**  
+- **Tailwind CSS**  
+- **LocalStorage API**  
+- **Custom Hooks & Components**
+
+---
+
+## 💬 Tagline
+
+> _“Discover. Install. Manage — Be the Hero of Your Apps!”_

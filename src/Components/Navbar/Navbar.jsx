@@ -60,7 +60,7 @@ const Navbar = () => {
                 className="w-10 h-10 md:w-12 md:h-12"
               />
               <span className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent text-3xl font-bold hidden md:flex lg:flex">
-                HERO.IO
+                HERO.APPS
               </span>
             </div>
           </div>
