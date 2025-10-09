@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useAllData from "../../Hooks/useAllData";
 import downloadIcon from "../../assets/icon-downloads.png";
@@ -6,18 +6,28 @@ import starIcon from "../../assets/icon-ratings.png";
 import reviewIcon from "../../assets/icon-review.png";
 import { setToLS } from "../../LocalStorage/LocalStorage";
 
-const AppDetails = () => {
+const AppDetails = ({ installedApp }) => {
   const { id } = useParams();
   const { allApps, loading } = useAllData();
   const [disable, setDisable] = useState(false);
   const [btnText, setBtnText] = useState("Install Now");
+
+  const foundData = installedApp.find((singleId) => singleId === id);
+
+  useEffect(()=>{
+    if (foundData) {
+      setDisable(true)
+      setBtnText("Installed")
+    }
+    
+  },[])
 
   if (loading) return <p>loading...</p>;
 
   const clickedApps = allApps.find((app) => app.id === Number(id));
   const { image, title, companyName, size, reviews, ratingAvg, downloads } =
     clickedApps;
-
+    
   const handleClicked = (id) => {
     setToLS(id);
     setDisable(true);

@@ -5,10 +5,11 @@ const getFromLS = () => {
 
 const setToLS = (id) => {
   const storedData = getFromLS();
-  console.log(storedData)
+  if(storedData.includes(id)){
+    return
+  }
 
   storedData.push(id);
-  console.log(storedData);
   const data = JSON.stringify(storedData);
 
   localStorage.setItem("appsId", data);

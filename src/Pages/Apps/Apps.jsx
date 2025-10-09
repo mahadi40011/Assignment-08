@@ -12,7 +12,7 @@ const Apps = () => {
   const searchApps = searchValue
     ? allApps.filter((app) => app.title.toLowerCase().includes(searchValue))
     : allApps;
-  console.log(searchApps);
+  // console.log(searchApps);
 
   // useEffect(()=>{
   //   if(search.length > 0){

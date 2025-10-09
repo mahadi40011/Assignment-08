@@ -3,12 +3,20 @@ import useAllData from "../../Hooks/useAllData";
 import { useParams } from "react-router";
 import BarCharts from "../../Components/BarCharts/BarCharts";
 import AppDetails from "./AppDetails";
+import { getFromLS } from "../../LocalStorage/LocalStorage";
 
 const ShowAppDetails = () => {
   const [barChartData, setBarChartData] = useState([]);
+  const [installedApp, setInstallApp] = useState([]);
 
   const { id } = useParams();
   const { allApps, loading } = useAllData();
+
+  useEffect(()=> {
+    const storedData = getFromLS()
+    setInstallApp(storedData)
+  },[])
+ 
 
   useEffect(() => {
     if (!loading) {
@@ -26,7 +34,7 @@ const ShowAppDetails = () => {
   return (
     <div className="my-6 sm:my-10 md:my-14 lg:my-20 p-2">
       <div>
-        <AppDetails></AppDetails>
+        <AppDetails installedApp={installedApp}></AppDetails>
       </div>
 
       <hr className="border border-gray-300 my-10" />
@@ -38,7 +46,9 @@ const ShowAppDetails = () => {
 
       <div className="mt-15">
         <h1 className="font-semibold text-2xl mb-5">Description</h1>
-        <p className="md:text-xl text-start md:text-justify text-gray-500">{description}</p>
+        <p className="md:text-xl text-start md:text-justify text-gray-500">
+          {description}
+        </p>
       </div>
     </div>
   );
