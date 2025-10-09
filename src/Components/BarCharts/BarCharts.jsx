@@ -10,7 +10,6 @@ import {
 } from "recharts";
 
 const BarCharts = ({ barChartData }) => {
-  console.log(barChartData);
 
   return (
     <div className="w-full h-40 md:h-64 lg:h-80 ">

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useAllData from "../../Hooks/useAllData";
 import AppCard from "../../Components/AppCard/AppCard";
 import NotFound from "../../Components/NotFound/NotFound";
 
 const Apps = () => {
-  const { allApps, loading } = useAllData();
+  const { allApps, loading, setLoading } = useAllData();
   const [search, setSearch] = useState("");
 
   const searchValue = search.trim().toLowerCase();
@@ -13,6 +13,12 @@ const Apps = () => {
     ? allApps.filter((app) => app.title.toLowerCase().includes(searchValue))
     : allApps;
   console.log(searchApps);
+
+  // useEffect(()=>{
+  //   if(search.length > 0){
+  //     setLoading(true)
+  //   }
+  // },[search])
 
   if (loading) return <p>loading..</p>;
 

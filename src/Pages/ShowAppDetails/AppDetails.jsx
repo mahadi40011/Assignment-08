@@ -1,29 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router";
 import useAllData from "../../Hooks/useAllData";
 import downloadIcon from "../../assets/icon-downloads.png";
 import starIcon from "../../assets/icon-ratings.png";
 import reviewIcon from "../../assets/icon-review.png";
+import { setToLS } from "../../LocalStorage/LocalStorage";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { allApps, loading } = useAllData();
+  const [disable, setDisable] = useState(false);
+  const [btnText, setBtnText] = useState("Install Now");
 
   if (loading) return <p>loading...</p>;
 
   const clickedApps = allApps.find((app) => app.id === Number(id));
   const { image, title, companyName, size, reviews, ratingAvg, downloads } =
     clickedApps;
+
+  const handleClicked = (id) => {
+    setToLS(id);
+    setDisable(true);
+    setBtnText("Installed");
+  };
   return (
     <div>
       <div className="hidden lg:block">
         <div className="grid grid-cols-4 ">
           <div className="col-span-1 flex justify-center items-center bg-white rounded-2xl">
-            <img
-              className="w-full h-fit rounded-2xl"
-              src={image}
-              alt={title}
-            />
+            <img className="w-full h-fit rounded-2xl" src={image} alt={title} />
           </div>
           <div className="col-span-3 p-10">
             <h1 className="font-bold text-4xl mb-2">{title}</h1>
@@ -57,8 +62,14 @@ const AppDetails = () => {
                 </span>
               </div>
             </div>
-            <button className="p-4 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-xl font-semibold text-white rounded-lg mt-8">
-              Install Now ({size} MB)
+            <button
+              onClick={() => handleClicked(id)}
+              disabled={disable}
+              className={`px-5 py-3 text-xl font-semibold rounded-lg mt-8 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white ${
+                disable ? " cursor-not-allowed" : " cursor-pointer"
+              }`}
+            >
+              {btnText === "Install Now" ? `${btnText} (${size}MB)` : btnText}
             </button>
           </div>
         </div>
@@ -68,7 +79,7 @@ const AppDetails = () => {
         <div className="grid grid-cols-3 mb-4 ">
           <div className="col-span-1 flex justify-center items-center">
             <img
-              className="w-3/5 h-fit rounded-full"
+              className="w-full h-fit rounded-full"
               src={image}
               alt={title}
             />
@@ -81,12 +92,25 @@ const AppDetails = () => {
                 {companyName}
               </span>
             </p>
+            <button
+              onClick={() => handleClicked(id)}
+              disabled={disable}
+              className={`px-3 py-2 text-sm font-semibold rounded-lg mt-4 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white ${
+                disable ? " cursor-not-allowed" : " cursor-pointer"
+              }`}
+            >
+              {btnText === "Install Now" ? `${btnText} (${size}MB)` : btnText}
+            </button>
           </div>
         </div>
 
         <div className="flex justify-around">
           <div className="flex flex-col justify-center items-center">
-            <img className="w-7 h-7 md:w-10 md:h-10" src={downloadIcon} alt={title} />
+            <img
+              className="w-7 h-7 md:w-10 md:h-10"
+              src={downloadIcon}
+              alt={title}
+            />
             <p className="mt-3">Downloads</p>
             <span className="font-bold md:font-extrabold text-3xl md:text-[40px]">
               {downloads < 1000000000
@@ -95,12 +119,22 @@ const AppDetails = () => {
             </span>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <img className="w-7 h-7 md:w-10 md:h-10" src={starIcon} alt={title} />
+            <img
+              className="w-7 h-7 md:w-10 md:h-10"
+              src={starIcon}
+              alt={title}
+            />
             <p className="mt-3">Average Ratings</p>
-            <span className="font-bold md:font-extrabold text-3xl md:text-[40px]">{ratingAvg}</span>
+            <span className="font-bold md:font-extrabold text-3xl md:text-[40px]">
+              {ratingAvg}
+            </span>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <img className="w-7 h-7 md:w-10 md:h-10" src={reviewIcon} alt={title} />
+            <img
+              className="w-7 h-7 md:w-10 md:h-10"
+              src={reviewIcon}
+              alt={title}
+            />
             <p className="mt-3">Total Reviews</p>
             <span className="font-bold md:font-extrabold text-3xl md:text-[40px]">
               {reviews / 1000000}M

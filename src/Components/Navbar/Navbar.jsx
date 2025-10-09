@@ -87,7 +87,7 @@ const Navbar = () => {
             <NavLink
               to={"https://github.com/mahadi40011"}
               target="_blank"
-              className="btn text-base md:text-xl py-4 md:py-6 font-semibold bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"
+              className="btn text-base md:text-xl py-4 md:py-6 font-semibold rounded-lg bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"
             >
               <FaGithub></FaGithub> Contribute
             </NavLink>
