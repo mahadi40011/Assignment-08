@@ -48,7 +48,7 @@ const Installation = () => {
             <select
               value={sort}
               onChange={(e) => setSort(e.target.value)}
-              className="select focus:outline-none border border-gray-400 w-52 text-lg font-medium"
+              className="select focus:outline-none border border-gray-400 hover:cursor-pointer w-52 text-lg font-medium"
             >
               <option disabled value="">
                 Sort by Download

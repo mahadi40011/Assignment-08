@@ -39,11 +39,11 @@ const Apps = () => {
         </p>
       </div>
 
-      <div className="sticky top-[70px] z-[90] py-5 bg-gray-100 flex flex-col-reverse gap-2 md:flex-row justify-between items-center">
-        <span className="font-semibold text-2xl">
+      <div className="sticky top-[62px] lg:top-[70px] z-[90] pb-2 pt-4 md:py-5 bg-gray-100 flex flex-col-reverse gap-2 md:flex-row justify-between items-center">
+        <span className="font-semibold text-lg md:text-2xl">
           ({searchApps.length}) Apps Found
         </span>
-        <label className="input w-[280px] ">
+        <label className="input w-[250px] ">
           <input
             value={search}
             onChange={(e) => handleChange(e)}

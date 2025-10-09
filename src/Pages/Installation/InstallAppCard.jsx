@@ -16,6 +16,10 @@ const InstallAppCard = ({ app, myApps, setMyApps }) => {
       title: `${title} Successfully Uninstall`,
       icon: "success",
       draggable: true,
+      customClass: {
+        // popup: "bg-blue-100 w-[500px] h-[300px] rounded-2xl",
+        // title: "!text-9xl"
+      },
     });
   };
 
@@ -31,7 +35,9 @@ const InstallAppCard = ({ app, myApps, setMyApps }) => {
             <div className="flex items-center justify-center gap-1 text-green-400  w-fit">
               <GoDownload></GoDownload>
               <span className="text-lg font-semibold  ">
-                {downloads < 1_000_000_000 ? `${(downloads / 1_000_000).toFixed(0)}M` : `${(downloads / 1_000_000_000).toFixed(0)}B`}
+                {downloads < 1_000_000_000
+                  ? `${(downloads / 1_000_000).toFixed(0)}M`
+                  : `${(downloads / 1_000_000_000).toFixed(0)}B`}
               </span>
             </div>
             <div className="flex items-center justify-center gap-1 text-[#FF8811]  w-fit">

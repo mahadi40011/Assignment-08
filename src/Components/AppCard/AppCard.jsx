@@ -18,11 +18,11 @@ const AppCard = ({ app }) => {
   return (
     <div
       onClick={() => handleClicked(id)}
-      className="bg-white p-4 object-cover rounded-xl shadow-lg"
+      className="bg-white p-4 object-cover max-w-[300px] mx-auto sm:max-w-none w-full md:mt-2 rounded-xl shadow-lg hover:cursor-pointer hover:scale-105 transition-transform duration-300 "
     >
       <div className="mb-5">
         <img
-          className="w-full h-70 object-cover rounded-xl"
+          className="w-[150px] mx-auto h-36 sm:w-full sm:h-70 object-cover rounded-xl"
           src={image}
           alt={title}
         />

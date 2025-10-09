@@ -28,6 +28,9 @@ const AppDetails = ({ allProps, foundData }) => {
       title: `${title} Successfully Install`,
       icon: "success",
       draggable: true,
+      customClass: {
+        popup: "!w-[250px] !h-fit "
+      }
     });
   };
   return (
