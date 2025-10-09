@@ -2,14 +2,20 @@ import React, { useEffect, useState } from "react";
 import { getFromLS } from "../../LocalStorage/LocalStorage";
 import useAllData from "../../Hooks/useAllData";
 import InstallAppCard from "./InstallAppCard";
+import LoadingSpinner from "../../Components/LoadingSpinner/LoadingSpinner";
 
 const Installation = () => {
   const { allApps, loading } = useAllData();
   const [myApps ,setMyApps] = useState([])
   const [sort , setSort] = useState("")
 
+  
+
   useEffect(() => {
-    if (loading) return;
+    if (loading){
+      <LoadingSpinner></LoadingSpinner>
+      return
+    };
     const dataSTR = getFromLS();
     const dataINT = dataSTR.map((id) => parseInt(id));
     const installedApps =

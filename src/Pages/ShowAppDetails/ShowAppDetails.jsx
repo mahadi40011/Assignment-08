@@ -4,19 +4,20 @@ import { useParams } from "react-router";
 import BarCharts from "../../Components/BarCharts/BarCharts";
 import AppDetails from "./AppDetails";
 import { getFromLS } from "../../LocalStorage/LocalStorage";
+import LoadingSpinner from "../../Components/LoadingSpinner/LoadingSpinner";
 
 const ShowAppDetails = () => {
+  const { allApps, loading } = useAllData();
   const [barChartData, setBarChartData] = useState([]);
   const [installedApp, setInstallApp] = useState([]);
 
   const { id } = useParams();
-  const { allApps, loading } = useAllData();
+  const foundData = installedApp.find((singleId) => singleId === id);
 
   useEffect(()=> {
     const storedData = getFromLS()
     setInstallApp(storedData)
   },[])
- 
 
   useEffect(() => {
     if (!loading) {
@@ -27,14 +28,26 @@ const ShowAppDetails = () => {
     }
   }, [loading, allApps, id]);
 
-  if (loading) return <p>loading...</p>;
+  if (loading) return <LoadingSpinner></LoadingSpinner>;
   const clickedApps = allApps.find((app) => app.id === Number(id));
-  const { description } = clickedApps;
+  const { image, title, companyName, size, reviews, ratingAvg, downloads, description } = clickedApps;
+
+const allProps = {
+  id: id,
+  image: image,
+  title: title,
+  companyName: companyName,
+  size: size,
+  reviews: reviews,
+  ratingAvg: ratingAvg,
+  downloads: downloads
+}
+
 
   return (
     <div className="my-6 sm:my-10 md:my-14 lg:my-20 p-2">
       <div>
-        <AppDetails installedApp={installedApp}></AppDetails>
+        <AppDetails allProps={allProps} foundData={foundData}></AppDetails>
       </div>
 
       <hr className="border border-gray-300 my-10" />

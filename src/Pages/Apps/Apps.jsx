@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import useAllData from "../../Hooks/useAllData";
 import AppCard from "../../Components/AppCard/AppCard";
 import NotFound from "../../Components/NotFound/NotFound";
+import LoadingSpinner from "../../Components/LoadingSpinner/LoadingSpinner";
 
 const Apps = () => {
-  const { allApps, loading, setLoading } = useAllData();
+  const { allApps, loading} = useAllData();
   const [search, setSearch] = useState("");
 
   const searchValue = search.trim().toLowerCase();
@@ -12,15 +13,8 @@ const Apps = () => {
   const searchApps = searchValue
     ? allApps.filter((app) => app.title.toLowerCase().includes(searchValue))
     : allApps;
-  // console.log(searchApps);
 
-  // useEffect(()=>{
-  //   if(search.length > 0){
-  //     setLoading(true)
-  //   }
-  // },[search])
-
-  if (loading) return <p>loading..</p>;
+  if (loading) return <LoadingSpinner></LoadingSpinner>
 
   return (
     <div className="my-8 md:my-14 lg:my-20">

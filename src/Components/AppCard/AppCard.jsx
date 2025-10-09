@@ -2,6 +2,7 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 import { GoDownload } from "react-icons/go";
 import { useNavigate } from "react-router";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 const AppCard = ({ app }) => {
   const { image, title, downloads, ratingAvg, id } = app;
@@ -9,6 +10,9 @@ const AppCard = ({ app }) => {
   const navigate = useNavigate();
   const handleClicked = (id) => {
     navigate(`/app-details/${id}`)
+    setTimeout(() => {
+      <LoadingSpinner></LoadingSpinner>
+    }, 5000);
   };
 
   return (
