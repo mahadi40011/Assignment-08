@@ -5,7 +5,7 @@ import reviewIcon from "../../assets/icon-review.png";
 import { setToLS } from "../../LocalStorage/LocalStorage";
 import "../../Components/SweetAlert/SweetAlertStyle.css";
 import { InstallAlert } from "../../Components/SweetAlert/SweetAlert";
-import NotFound from "../../Components/NotFound/NotFound";
+import NotFound2 from "../../Components/NotFound/NotFound2";
 
 const AppDetails = ({ allProps, foundData }) => {
   console.log(allProps)
@@ -32,7 +32,7 @@ const AppDetails = ({ allProps, foundData }) => {
     }, 1000)
   };
 
-  if(!allProps.title) return <NotFound></NotFound>
+  if(!allProps.title) return <NotFound2></NotFound2>
   return (
     <div>
       {/* design for desktop */}
