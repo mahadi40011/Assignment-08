@@ -35,17 +35,20 @@ const ShowAppDetails = () => {
   if (loading) return <LoadingSpinner></LoadingSpinner>;
 
   const clickedApps = allApps.find((app) => app.id === Number(id));
-  const { image, title, companyName, size, reviews, ratingAvg, downloads, description } = clickedApps;
+  // const { image, title, companyName, size, reviews, ratingAvg, downloads, description } = clickedApps;
 
 const allProps = {
   id: id,
-  image: image,
-  title: title,
-  companyName: companyName,
-  size: size,
-  reviews: reviews,
-  ratingAvg: ratingAvg,
-  downloads: downloads
+  image: clickedApps?.image,
+  title: clickedApps?.title,
+  companyName: clickedApps?.companyName,
+  size: clickedApps?.size,
+  reviews: clickedApps?.reviews,
+  ratingAvg: clickedApps?.ratingAvg,
+  downloads: clickedApps?.downloads
+}
+if(!clickedApps) {
+  return <div><AppDetails allProps={allProps} foundData={foundData}></AppDetails></div>
 }
 
   return (
@@ -66,7 +69,7 @@ const allProps = {
       <div>
         <h1 className="font-semibold text-xl md:text-2xl mb-2">Description</h1>
         <p className="md:text-xl text-start md:text-justify text-gray-500">
-          {description}
+          {clickedApps?.description}
         </p>
       </div>
     </div>
