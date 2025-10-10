@@ -1,5 +1,11 @@
 # 🦸‍♂️ HERO.APPS
 
+## 💬 Tagline
+
+> _“Discover. Install. Manage — Be the Hero of Your Apps!”_
+
+---
+
 **Your Smart App Management Dashboard**
 
 HERO.APPS is a modern web application that lets you explore, install, and manage apps all in one place.  
@@ -59,9 +65,3 @@ npm install
 
 # 4️⃣ Start the development server
 npm run dev
-
----
-
-## 💬 Tagline
-
-> _“Discover. Install. Manage — Be the Hero of Your Apps!”_
