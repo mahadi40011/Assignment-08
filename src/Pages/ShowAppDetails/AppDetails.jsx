@@ -23,16 +23,19 @@ const AppDetails = ({ allProps, foundData }) => {
   const handleClicked = (id) => {
     setToLS(id);
     setDisable(true);
-    setBtnText("Installed");
-    Swal.fire({
-      title: `${title} Successfully Install`,
-      icon: "success",
-      draggable: true,
-      customClass: {
-        popup: "popup-style",
-        title: "title-style",
-      },
-    });
+    setBtnText("Installing")
+    setTimeout(()=> {
+      setBtnText("Installed");
+      Swal.fire({
+        title: `${title} Successfully Install`,
+        icon: "success",
+        draggable: true,
+        customClass: {
+          popup: "popup-style",
+          title: "title-style",
+        },
+      });
+    }, 2000)
   };
   return (
     <div>
