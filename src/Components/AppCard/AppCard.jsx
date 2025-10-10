@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { FaStar } from "react-icons/fa";
 import { GoDownload } from "react-icons/go";
 import { useNavigate } from "react-router";
@@ -6,10 +6,6 @@ import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 const AppCard = ({ app }) => {
   const { image, title, downloads, ratingAvg, id } = app;
-  
-  useEffect(()=>{
-      window.scrollTo({top: 0, left: 0, behavior: "smooth"})
-    },[app])
 
   const navigate = useNavigate();
   const handleClicked = (id) => {

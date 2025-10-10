@@ -15,6 +15,10 @@ const ShowAppDetails = () => {
   const foundData = installedApp.find((singleId) => singleId === id);
 
   useEffect(()=> {
+    window.scrollTo(0,0)
+  },[])
+
+  useEffect(()=> {
     const storedData = getFromLS()
     setInstallApp(storedData)
   },[])
@@ -53,14 +57,14 @@ const allProps = {
       <hr className="border border-gray-300 my-5 sm:my-8 md:my-10" />
 
       <div>
-        <h1 className="font-semibold text-2xl mb-4">Ratings</h1>
+        <h1 className="font-semibold text-xl md:text-2xl  mb-4">Ratings</h1>
         <BarCharts barChartData={barChartData}></BarCharts>
       </div>
 
       <hr className="border border-gray-300 my-5 sm:my-8 md:my-10" />
 
       <div>
-        <h1 className="font-semibold text-2xl mb-5">Description</h1>
+        <h1 className="font-semibold text-xl md:text-2xl mb-2">Description</h1>
         <p className="md:text-xl text-start md:text-justify text-gray-500">
           {description}
         </p>
