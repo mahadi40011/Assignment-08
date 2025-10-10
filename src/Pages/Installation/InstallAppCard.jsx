@@ -24,33 +24,33 @@ const InstallAppCard = ({ app, myApps, setMyApps }) => {
   };
 
   return (
-    <div className="flex justify-between items-center mt-5 bg-white px-6 rounded-3xl">
-      <div className="flex items-center gap-5">
+    <div className="flex justify-between items-center mb-2 md:mb-0 md:mt-5 bg-white mx-2 px-2 py-1 md:px-6 rounded-xl md:rounded-3xl">
+      <div className="flex items-center gap-2 sm:gap-5">
         <div>
-          <img className="w-40 h-40 rounded-4xl" src={image} alt="" />
+          <img className="w-20 h-20 md:w-40 md:h-40 rounded-lg md:rounded-4xl" src={image} alt="" />
         </div>
         <div>
-          <h1 className="font-bold text-2xl mb-6">{title}</h1>
-          <div className="font-medium flex items-center gap-3">
-            <div className="flex items-center justify-center gap-1 text-green-400  w-fit">
+          <h1 className="font-semibold md:font-bold text-xl md:text-2xl mb-2 md:mb-6">{title}</h1>
+          <div className="text-sm md:text-lg font-medium md:font-semibold flex items-center gap-1.5 sm:gap-3">
+            <div className="flex items-center justify-center md:gap-1 text-green-400 w-fit">
               <GoDownload></GoDownload>
-              <span className="text-lg font-semibold  ">
+              <span >
                 {downloads < 1_000_000_000
                   ? `${(downloads / 1_000_000).toFixed(0)}M`
                   : `${(downloads / 1_000_000_000).toFixed(0)}B`}
               </span>
             </div>
-            <div className="flex items-center justify-center gap-1 text-[#FF8811]  w-fit">
+            <div className="flex items-center justify-center md:gap-1 text-[#FF8811] w-fit">
               <FaStar></FaStar>
-              <span className="text-lg font-semibold "> {ratingAvg}</span>
+              <span> {ratingAvg}</span>
             </div>
-            <span className="text-lg font-semibold  ">{size}MB</span>
+            <span>{size}MB</span>
           </div>
         </div>
       </div>
       <button
         onClick={() => handleClicked(id)}
-        className="btn text-base md:text-xl py-4 md:py-6 font-semibold rounded-lg bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"
+        className="btn text-sm sm:text-base md:text-xl h-fit py-2 font-semibold rounded-lg bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"
       >
         Uninstall
       </button>

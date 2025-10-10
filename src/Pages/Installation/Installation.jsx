@@ -31,7 +31,7 @@ const Installation = () => {
       {loading ? (
         <LoadingSpinner></LoadingSpinner>
       ) : (
-        <div className="my-8 md:my-14 lg:my-20">
+        <div className="my-4 sm:my-8 md:my-14 lg:my-20">
           <div>
             <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-center mb-2 md:mb-4">
               Your Installed Apps
@@ -41,14 +41,14 @@ const Installation = () => {
             </p>
           </div>
 
-          <div className="sticky top-[70px] z-[90] py-5 bg-gray-100 flex flex-col-reverse gap-2 md:flex-row justify-between items-center">
-            <span className="font-semibold text-2xl">
+          <div className="sticky top-[62px] lg:top-[70px] z-[90] pb-2 pt-4 md:py-5 py-5 bg-gray-100 flex flex-col-reverse gap-1 sm:gap-2 md:flex-row justify-between items-center">
+            <span className="font-semibold text-lg md:text-2xl">
               {sortedItem.length} Apps Found
             </span>
             <select
               value={sort}
               onChange={(e) => setSort(e.target.value)}
-              className="select focus:outline-none border border-gray-400 hover:cursor-pointer w-52 text-lg font-medium"
+              className="select focus:outline-none border border-gray-400 hover:cursor-pointer w-52 md:text-lg font-medium"
             >
               <option disabled value="">
                 Sort by Download
