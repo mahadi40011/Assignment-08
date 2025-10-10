@@ -2,17 +2,17 @@ import React from "react";
 import googlePlayImg from "../../assets/google-play.png";
 import appStore from "../../assets/app-store.png";
 import bannerImg from "../../assets/hero.png";
-import { useNavigate } from "react-router";
 import useAllData from "../../Hooks/useAllData";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 const Banner = () => {
-  const navigateToAppStore = useNavigate();
-  const {allApps} = useAllData()
+  const {allApps , loading} = useAllData()
 
   const totalDownload = allApps.map(app => app.downloads).reduce((a,b) => a + b , 0)
   const totalReviews = allApps.map(app => app.reviews).reduce((a,b) => a + b , 0)
   const activeApps = allApps.length
-  console.log(totalDownload)
+
+  if (loading) return <LoadingSpinner></LoadingSpinner>
 
   return (
     <div className="flex flex-col justify-center items-center mt-8 md:mt-14 lg:mt-20">
@@ -35,7 +35,7 @@ const Banner = () => {
           <p className="font-semibold text-base md:text-xl">Google Play</p>
         </div>
         <div
-          onClick={() => navigateToAppStore("/apps")}
+          onClick={()=> window.open("https://www.apple.com/apps/", "_blank")}
           className="flex justify-center items-center gap-1.5 md:gap-3 border border-gray-300 rounded-lg w-[200px] md:w-fit py-1 md:py-2 px-5 bg-gray-200 hover:bg-gray-300 cursor-pointer"
         >
           <img src={appStore} alt="" />
