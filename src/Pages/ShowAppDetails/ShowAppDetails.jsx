@@ -35,8 +35,6 @@ const ShowAppDetails = () => {
   if (loading) return <LoadingSpinner></LoadingSpinner>;
 
   const clickedApps = allApps.find((app) => app.id === Number(id));
-  // const { image, title, companyName, size, reviews, ratingAvg, downloads, description } = clickedApps;
-
 const allProps = {
   id: id,
   image: clickedApps?.image,

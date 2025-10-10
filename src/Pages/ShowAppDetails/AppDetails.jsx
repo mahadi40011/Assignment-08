@@ -8,7 +8,6 @@ import { InstallAlert } from "../../Components/SweetAlert/SweetAlert";
 import NotFound2 from "../../Components/NotFound/NotFound2";
 
 const AppDetails = ({ allProps, foundData }) => {
-  console.log(allProps)
   const [disable, setDisable] = useState(false);
   const [btnText, setBtnText] = useState("Install Now");
 
@@ -18,9 +17,6 @@ const AppDetails = ({ allProps, foundData }) => {
       setBtnText("Installed");
     }
   }, [foundData]);
-
-  // const { id, image, title, companyName, size, reviews, ratingAvg, downloads } =
-  //   allProps;
 
   const handleClicked = (id) => {
     setDisable(true);
