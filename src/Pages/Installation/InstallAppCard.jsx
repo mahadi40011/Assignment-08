@@ -3,6 +3,7 @@ import { FaStar } from "react-icons/fa";
 import { GoDownload } from "react-icons/go";
 import { removeFromLS } from "../../LocalStorage/LocalStorage";
 import Swal from "sweetalert2";
+import "../../Components/SweetAlert/SweetAlertStyle.css"
 
 const InstallAppCard = ({ app, myApps, setMyApps }) => {
   const { image, title, downloads, ratingAvg, size, id } = app;
@@ -12,15 +13,15 @@ const InstallAppCard = ({ app, myApps, setMyApps }) => {
     removeFromLS(intID);
     const filteredData = myApps.filter((ap) => ap.id !== id);
     setMyApps(filteredData);
-    Swal.fire({
-      title: `${title} Successfully Uninstall`,
-      icon: "success",
-      draggable: true,
-      customClass: {
-        // popup: "bg-blue-100 w-[500px] h-[300px] rounded-2xl",
-        // title: "!text-9xl"
-      },
-    });
+   Swal.fire({
+         title: `${title} Successfully Uninstall`,
+         icon: "success",
+         draggable: true,
+         customClass: {
+           popup: "popup-style",
+           title: "title-style",
+         },
+       });
   };
 
   return (

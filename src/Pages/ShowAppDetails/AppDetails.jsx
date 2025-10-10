@@ -4,9 +4,9 @@ import starIcon from "../../assets/icon-ratings.png";
 import reviewIcon from "../../assets/icon-review.png";
 import { setToLS } from "../../LocalStorage/LocalStorage";
 import Swal from "sweetalert2";
+import "../../Components/SweetAlert/SweetAlertStyle.css";
 
 const AppDetails = ({ allProps, foundData }) => {
-  
   const [disable, setDisable] = useState(false);
   const [btnText, setBtnText] = useState("Install Now");
 
@@ -29,8 +29,9 @@ const AppDetails = ({ allProps, foundData }) => {
       icon: "success",
       draggable: true,
       customClass: {
-        popup: "!w-[250px] !h-fit "
-      }
+        popup: "popup-style",
+        title: "title-style",
+      },
     });
   };
   return (

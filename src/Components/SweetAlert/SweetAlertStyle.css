@@ -1,0 +1,26 @@
+.popup-style {
+  width: 400px !important;
+  height: fit-content !important;
+}
+
+.title-style {
+  font-size: 1.5rem !important; 
+}
+
+@media (max-width: 450px) {
+  .popup-style {
+    width: 80% !important; 
+  }
+  .title-style {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 1024px) {
+  .popup-style {
+    width: 300px !important;
+  }
+  .title-style {
+    font-size: 1.4rem !important;
+  }
+}
