@@ -45,19 +45,21 @@ const allProps = {
 }
 
   return (
-    <div className="my-6 sm:my-10 md:my-14 lg:my-20 p-2">
+    <div className="my-5 sm:my-8 md:my-10 lg:my-16 p-2">
       <div>
         <AppDetails allProps={allProps} foundData={foundData}></AppDetails>
       </div>
 
-      <hr className="border border-gray-300 my-10" />
+      <hr className="border border-gray-300 my-5 sm:my-8 md:my-10" />
 
       <div>
         <h1 className="font-semibold text-2xl mb-4">Ratings</h1>
         <BarCharts barChartData={barChartData}></BarCharts>
       </div>
 
-      <div className="mt-15">
+      <hr className="border border-gray-300 my-5 sm:my-8 md:my-10" />
+
+      <div>
         <h1 className="font-semibold text-2xl mb-5">Description</h1>
         <p className="md:text-xl text-start md:text-justify text-gray-500">
           {description}

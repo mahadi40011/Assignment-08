@@ -3,8 +3,8 @@ import downloadIcon from "../../assets/icon-downloads.png";
 import starIcon from "../../assets/icon-ratings.png";
 import reviewIcon from "../../assets/icon-review.png";
 import { setToLS } from "../../LocalStorage/LocalStorage";
-import Swal from "sweetalert2";
 import "../../Components/SweetAlert/SweetAlertStyle.css";
+import { InstallAlert } from "../../Components/SweetAlert/SweetAlert";
 
 const AppDetails = ({ allProps, foundData }) => {
   const [disable, setDisable] = useState(false);
@@ -21,56 +21,49 @@ const AppDetails = ({ allProps, foundData }) => {
     allProps;
 
   const handleClicked = (id) => {
-    setToLS(id);
     setDisable(true);
     setBtnText("Installing")
     setTimeout(()=> {
       setBtnText("Installed");
-      Swal.fire({
-        title: `${title} Successfully Install`,
-        icon: "success",
-        draggable: true,
-        customClass: {
-          popup: "popup-style",
-          title: "title-style",
-        },
-      });
-    }, 2000)
+      setToLS(id);
+      InstallAlert(title)
+    }, 1000)
   };
   return (
     <div>
+      {/* design for desktop */}
       <div className="hidden lg:block">
-        <div className="grid grid-cols-4 ">
-          <div className="col-span-1 flex justify-center items-center bg-white rounded-2xl">
+        <div className="flex justify-start items-center ">
+          <div className="w-[362px] flex justify-center items-center bg-white rounded-2xl">
             <img className="w-full h-fit rounded-2xl" src={image} alt={title} />
           </div>
-          <div className="col-span-3 p-10">
-            <h1 className="font-bold text-4xl mb-2">{title}</h1>
+          <div className="pl-10">
+            <h1 className="font-bold text-4xl mb-1">{title}</h1>
             <p className="text-xl">
               Developed by{" "}
               <span className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
                 {companyName}
               </span>
             </p>
-            <hr className="border border-gray-300 my-8" />
-            <div className="grid grid-cols-5">
-              <div>
-                <img className="w-10 h-10" src={downloadIcon} alt={title} />
-                <p className="mt-3">Downloads</p>
+            <hr className="border border-gray-300 my-4" />
+            <div className="flex items-center justify-start gap-10">
+              <div className="flex flex-col items-center justify-center">
+                <img className="w-8 h-8" src={downloadIcon} alt={title} />
+                <p className="mt-2">Downloads</p>
                 <span className="font-extrabold text-[40px]">
                   {downloads < 1000000000
                     ? `${downloads / 1000000}M`
                     : `${downloads / 1000000000}B`}
                 </span>
               </div>
-              <div>
-                <img className="w-10 h-10" src={starIcon} alt={title} />
-                <p className="mt-3">Average Ratings</p>
+              <div className="flex flex-col items-center justify-center">
+                <img className="w-8 h-8" src={starIcon} alt={title} />
+                <p className="mt-2">Average Ratings</p>
                 <span className="font-extrabold text-[40px]">{ratingAvg}</span>
               </div>
-              <div>
-                <img className="w-10 h-10" src={reviewIcon} alt={title} />
-                <p className="mt-3">Total Reviews</p>
+              <div className="flex flex-col items-center justify-center">
+                <img className="w-8 h-8" src={reviewIcon} alt={title} />
+                <p className="mt-2">Total Reviews</p>
                 <span className="font-extrabold text-[40px]">
                   {reviews / 1000000}M
                 </span>
@@ -79,7 +72,7 @@ const AppDetails = ({ allProps, foundData }) => {
             <button
               onClick={() => handleClicked(id)}
               disabled={disable}
-              className={`px-5 py-3 text-xl font-semibold rounded-lg mt-8 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white ${
+              className={`px-5 py-3 text-xl font-semibold rounded-lg mt-6 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white ${
                 disable ? " cursor-not-allowed" : " cursor-pointer"
               }`}
             >
@@ -89,18 +82,19 @@ const AppDetails = ({ allProps, foundData }) => {
         </div>
       </div>
 
+      {/* design for mobile */}
       <div className="lg:hidden">
-        <div className="grid grid-cols-3 mb-4 ">
-          <div className="col-span-1 flex justify-center items-center">
+        <div className="flex justify-start mb-4 sm:mb-10 pl-1">
+          <div className=" flex justify-center items-center bg-white rounded-2xl">
             <img
-              className="w-full h-fit rounded-full"
+              className="max-w-[105px] sm:max-w-[150px] w-full h-fit rounded-full"
               src={image}
               alt={title}
             />
           </div>
-          <div className="col-span-2 p-3 md:p-10">
-            <h1 className="font-bold text-3xl md:text-4xl mb-2">{title}</h1>
-            <p className="text-base md:text-xl">
+          <div className=" pl-3 sm:pl-10 md:pl-12 h-fit">
+            <h1 className="font-bold text-2xl sm:text-4xl mb-0 sm:mb-1">{title}</h1>
+            <p className="text-sm sm:text-base md:text-xl">
               Developed by{" "}
               <span className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
                 {companyName}
@@ -109,7 +103,7 @@ const AppDetails = ({ allProps, foundData }) => {
             <button
               onClick={() => handleClicked(id)}
               disabled={disable}
-              className={`px-3 py-2 text-sm font-semibold rounded-lg mt-4 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white ${
+              className={`px-2 py-1.5 text-xs sm:text-base font-semibold rounded-md mt-2 sm:mt-4 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white ${
                 disable ? " cursor-not-allowed" : " cursor-pointer"
               }`}
             >
@@ -118,15 +112,15 @@ const AppDetails = ({ allProps, foundData }) => {
           </div>
         </div>
 
-        <div className="flex justify-around">
+        <div className="flex justify-start sm:justify-around gap-4 sm:max-w-[400px] md:max-w-[500px]">
           <div className="flex flex-col justify-center items-center">
             <img
               className="w-7 h-7 md:w-10 md:h-10"
               src={downloadIcon}
               alt={title}
             />
-            <p className="mt-3">Downloads</p>
-            <span className="font-bold md:font-extrabold text-3xl md:text-[40px]">
+            <p className="mt-2 text-center">Downloads</p>
+            <span className="font-bold md:font-extrabold text-2xl sm:text-3xl md:text-[40px]">
               {downloads < 1000000000
                 ? `${downloads / 1000000}M`
                 : `${downloads / 1000000000}B`}
@@ -138,8 +132,8 @@ const AppDetails = ({ allProps, foundData }) => {
               src={starIcon}
               alt={title}
             />
-            <p className="mt-3">Average Ratings</p>
-            <span className="font-bold md:font-extrabold text-3xl md:text-[40px]">
+            <p className="mt-2 text-center">Average Ratings</p>
+            <span className="font-bold md:font-extrabold text-2xl sm:text-3xl md:text-[40px]">
               {ratingAvg}
             </span>
           </div>
@@ -149,8 +143,8 @@ const AppDetails = ({ allProps, foundData }) => {
               src={reviewIcon}
               alt={title}
             />
-            <p className="mt-3">Total Reviews</p>
-            <span className="font-bold md:font-extrabold text-3xl md:text-[40px]">
+            <p className="mt-2 text-center">Total Reviews</p>
+            <span className="font-bold md:font-extrabold text-2xl sm:text-3xl md:text-[40px]">
               {reviews / 1000000}M
             </span>
           </div>

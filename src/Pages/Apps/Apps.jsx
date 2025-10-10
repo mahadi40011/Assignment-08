@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useAllData from "../../Hooks/useAllData";
 import AppCard from "../../Components/AppCard/AppCard";
 import NotFound from "../../Components/NotFound/NotFound";
@@ -8,6 +8,10 @@ const Apps = () => {
   const { allApps, loading } = useAllData();
   const [search, setSearch] = useState("");
   const [manualLoading, setManualLoading] = useState(false);
+
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
 
   const searchValue = search.trim().toLowerCase();
 
@@ -58,7 +62,7 @@ const Apps = () => {
         {manualLoading ? (
           <LoadingSpinner height="h-[400px]"></LoadingSpinner>
         ) : (
-          <div className="grid grid-cols-1 h- sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 px-2 ">
+          <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 px-2 ">
             {searchApps.map((app) => (
               <AppCard key={app.id} app={app}></AppCard>
             ))}

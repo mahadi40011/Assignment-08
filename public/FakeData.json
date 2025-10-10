@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co.com/sc9W174/download.png",
+    "image": "https://icons.iconarchive.com/icons/aniket-suvarna/box-logo/256/bxl-tiktok-icon.png",
     "title": "TikTok",
     "companyName": "ByteDance",
     "description": "TikTok is a leading short-form video platform that allows users to create and share 15-second to 3-minute videos on any topic. It's built on a highly sophisticated recommendation engine, the 'For You' page, which curates content to each user's taste, driving its viral nature. Key features include an extensive library of music and sounds, creative filters and effects, stitching and duetting capabilities for collaborative content creation, and live streaming. It serves as a global stage for self-expression and cultural trends, with use-cases spanning entertainment, education, marketing, and activism. Users can engage with content through likes, shares, comments, and saving sounds to create their own videos, fostering a highly interactive community.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co.com/4Zvc2Dnc/download-1.png",
+    "image": "https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/YouTube-icon.png",
     "title": "YouTube",
     "companyName": "Google LLC",
     "description": "YouTube is the world's largest video-sharing platform, offering an immense library of user-generated and corporate media content. Its primary purpose is to allow users to upload, view, rate, share, and comment on videos, and subscribe to other users (creators). Features include high-definition streaming, live broadcasts, personalized video recommendations, and the 'YouTube Shorts' short-form video feature. Use-cases are broad, covering entertainment (music, vlogs, movies), education (tutorials, lectures), news, and brand promotion. The application supports various monetization methods for creators, such as ad revenue, channel memberships, and Super Chat, establishing itself as a dominant force in digital video consumption.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co.com/vCYzfyN2/download.jpg",
+    "image": "https://icons.iconarchive.com/icons/tinylab/android-lollipop-apps/128/Whatsapp-icon.png",
     "title": "WhatsApp Messenger",
     "companyName": "Meta Platforms, Inc.",
     "description": "WhatsApp is a cross-platform, encrypted instant messaging and Voice-over-IP (VoIP) service. It allows users to send text messages, voice messages, make voice and video calls, and share images, documents, and user locations. The service operates over mobile cellular networks and Wi-Fi, using end-to-end encryption to secure communications, ensuring privacy. Key features include group chats, broadcast lists, and the 'Status' feature for sharing ephemeral updates. Its use-cases are primarily personal communication, but the 'WhatsApp Business' version extends its utility for small and large businesses to interact with customers for support, marketing, and sales, making it a ubiquitous tool for global connectivity.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co.com/zTDcNRpZ/download-2.png",
+    "image": "https://icons.iconarchive.com/icons/chrisbanks2/cold-fusion-hd/128/netflix-icon.png",
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "description": "Netflix is the world's leading subscription streaming service for watching TV episodes and movies on your phone, tablet, or TV. The application provides thousands of titles, including original series, documentaries, and feature films across virtually every genre. Key features include personalized content recommendations based on viewing history, multiple user profiles, offline downloads for viewing without an internet connection, and parental controls. Its purpose is to deliver an unparalleled on-demand entertainment experience. Use-cases revolve around casual viewing, binging entire series, and discovering new content from their exclusive library, replacing traditional scheduled television viewing.",
@@ -73,8 +73,8 @@
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co.com/S9YGXmg/images.png",
-    "title": "Amazon Shopping",
+    "image": "https://icons.iconarchive.com/icons/uiconstock/socialmedia/128/Amazon-icon.png",
+    "title": "Amazon",
     "companyName": "Amazon.com, Inc.",
     "description": "Amazon Shopping is the mobile gateway to the vast Amazon retail marketplace. The app's core purpose is to enable users to browse, search, compare prices, read reviews, and place orders for millions of products across countless categories, including electronics, apparel, and groceries. Essential features include 1-Click ordering, secure payment processing, personalized recommendations, order tracking, and integration with Amazon Prime services like fast, free shipping. Its use-cases span everyday convenience shopping, checking daily deals, and managing a household's needs directly from a mobile device, effectively bringing the entirety of the world's largest online retailer into the palm of the user's hand.",
     "size": 110,
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "https://i.ibb.co.com/8D6JkgWc/download-7.png",
+    "image": "https://icons.iconarchive.com/icons/uiconstock/socialmedia/128/Pinterest-icon.png",
     "title": "Pinterest",
     "companyName": "Pinterest, Inc.",
     "description": "Pinterest is a visual discovery engine and social media service designed to enable users to save and discover information (ideas, images, links) on the web using images and, on a smaller scale, GIFs and videos. The platform's core purpose is to inspire users to 'Pin' content—saving it to personalized, themed collections called 'boards.' Features include visual search technology (Lens), personalized home feeds, and the ability to follow other users and specific boards. Use-cases are broad, including planning home renovation projects, discovering new recipes, curating fashion inspiration, organizing travel itineraries, and serving as a powerful visual marketing and e-commerce tool for businesses.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "https://i.ibb.co.com/HDkthtQX/download-8.png",
+    "image": "https://icons.iconarchive.com/icons/simpleicons-team/simple/128/uber-icon.png",
     "title": "Uber",
     "companyName": "Uber Technologies, Inc.",
     "description": "Uber is a mobility as a service (MaaS) provider, revolutionizing personal transportation and food delivery through a simple mobile application. Its purpose is to match riders with drivers and customers with food couriers swiftly and efficiently. Features include real-time GPS tracking of the ride/delivery, in-app cashless payment, ride-splitting options, and detailed driver/courier ratings. Use-cases include on-demand personal rides for daily commute or late-night travel, scheduled rides to the airport, and leveraging 'Uber Eats' for ordering meals from local restaurants. The app provides price estimates upfront, ensuring transparency and convenience in urban mobility.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "https://i.ibb.co.com/N2XJGnY2/download-9.png",
+    "image": "https://icons.iconarchive.com/icons/fa-team/fontawesome-brands/128/FontAwesome-Brands-Airbnb-icon.png",
     "title": "Airbnb",
     "companyName": "Airbnb, Inc.",
     "description": "Airbnb is an online marketplace for lodging, primarily homestays, and tourism experiences. It connects people who want to rent out their homes or spare rooms with people who are looking for accommodation. The core purpose is to offer travelers unique, local, and diverse lodging options that often provide a more authentic experience than traditional hotels. Key features include detailed host profiles and guest reviews, secure in-app booking and payment, and 'Experiences' for local activities hosted by experts. Use-cases range from booking a short-term vacation rental, finding an apartment for an extended work trip, or discovering unique activities, fostering a sense of belonging anywhere in the world.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "https://i.ibb.co.com/xtQxR1DX/download-10.png",
+    "image": "https://icons.iconarchive.com/icons/chrisbanks2/cold-fusion-hd/128/paypal-icon.png",
     "title": "PayPal",
     "companyName": "PayPal Holdings, Inc.",
     "description": "PayPal is an online payment system that supports online money transfers and serves as an electronic alternative to traditional paper methods like checks and money orders. Its purpose is to facilitate secure, instant payment processing for both consumers and businesses worldwide. Key features include peer-to-peer money transfers, buyer and seller protection policies, and a 'Pay in 4' installment payment option. Use-cases are diverse, spanning online shopping checkouts, sending money to friends and family, receiving payments for freelance work, and managing international transactions, making it one of the most trusted and globally accepted digital wallets for commerce.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "https://i.ibb.co.com/XrrNDq96/download-11.png",
+    "image": "https://icons.iconarchive.com/icons/hopstarter/rounded-square/128/Adobe-Acrobat-Reader-icon.png",
     "title": "Adobe Acrobat Reader",
     "companyName": "Adobe Inc.",
     "description": "Adobe Acrobat Reader is the industry-standard software for viewing, printing, and commenting on Portable Document Format (PDF) files. The application's core purpose is to ensure documents are viewed consistently across all platforms and devices, preserving formatting and content integrity. Key features include annotation tools (highlighting, sticky notes), electronic signature capabilities, form filling, and cloud storage integration with Adobe Document Cloud. Use-cases are fundamental to modern digital life, involving reading e-books, reviewing business contracts, filling out official application forms, and securely sharing documents across professional and personal networks, making it essential for document workflow.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "https://i.ibb.co.com/MDzNwn1P/download-12.png",
+    "image": "https://icons.iconarchive.com/icons/bootstrap/bootstrap/128/Bootstrap-discord-icon.png",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "description": "Discord is a VoIP, instant messaging, and digital distribution platform designed to create communities (servers) centered around specific interests, such as gaming, education, and social groups. Its purpose is to allow users to communicate with voice calls, video calls, text messaging, and media sharing in private chats or as part of large, public communities. Features include organized text and voice channels, customizable user roles, screensharing for streaming games or presentations, and bot integrations for automation and moderation. Use-cases have expanded from gaming communication to becoming a versatile platform for online clubs, study groups, support networks, and professional communities, valued for its real-time, high-quality communication tools.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "https://i.ibb.co.com/pBw8ZwvG/download-14.png",
+    "image": "https://i.ibb.co.com/DHXpTP5v/Headspace.png",
     "title": "Headspace",
     "companyName": "Headspace, Inc.",
     "description": "Headspace is a meditation and mindfulness application dedicated to improving the health and happiness of the world. Its purpose is to teach users how to meditate and live mindfully through a vast library of guided audio sessions. Key features include 'The Basics' course for beginners, hundreds of themed courses (e.g., stress, sleep, focus), 'Sleepcasts' for better sleep, and short 'minis' for quick, on-the-go meditations. Use-cases involve reducing stress and anxiety, improving concentration and focus, and developing better sleep hygiene. The app acts as a personal guide to mental wellness, helping users build a consistent meditation habit regardless of their experience level.",
@@ -358,4 +358,437 @@
       { "name": "4 Star", "count": 100000 },
       { "name": "5 Star", "count": 350000 }
     ]
-  }]
+  },
+  {
+    "id": 21,
+    "image": "https://icons.iconarchive.com/icons/martz90/circle/128/evernote-icon.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "description": "Evernote is a versatile note-taking and organizational app that lets users capture ideas, tasks, and reminders in one place. You can write text notes, clip web articles, attach documents or images, record audio memos, and more. All notes are searchable and can be organized using notebooks, tags, and stacks. Evernote supports syncing across devices, offline access, and integration with tools like Google Drive, Outlook, Slack, and others. Use cases include personal journaling, meeting minute taking, research collection, project planning, and daily to-do management. Its strength lies in managing mixed media content in a unified system, so you always find what you need quickly, regardless of format. Its flexibility allows students, professionals, creatives, and teams to adapt it to their workflows.",
+    "size": 120,
+    "reviews": 2000000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 Star", "count": 50000 },
+      { "name": "2 Star", "count": 100000 },
+      { "name": "3 Star", "count": 300000 },
+      { "name": "4 Star", "count": 600000 },
+      { "name": "5 Star", "count": 950000 }
+    ]
+  },
+  {
+    "id": 22,
+    "image":"https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/goa-account-todoist-icon.png",
+    "title": "Todoist",
+    "companyName": "Doist Ltd.",
+    "description": "Todoist is a powerful task management and to-do list app designed to help users stay organized and productive. It allows you to create tasks, set due dates, priorities, labels, and projects. You can break down larger tasks into subtasks, and also add comments, file attachments, and reminders. Collaboration features let you share tasks with teammates, assign responsibilities, and track progress. Todoist integrates with calendars, email clients, Slack, Google Drive, and other tools. Use cases include personal task tracking, project planning, habit building, and managing team workflows. With features like recurring tasks, productivity trends, and Karma (gamified progress tracking), Todoist makes it easier to maintain consistency. The app is scalable — works for individual users as well as teams handling complex projects.",
+    "size": 35,
+    "reviews": 1500000,
+    "ratingAvg": 4.5,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 Star", "count": 30000 },
+      { "name": "2 Star", "count": 60000 },
+      { "name": "3 Star", "count": 120000 },
+      { "name": "4 Star", "count": 400000 },
+      { "name": "5 Star", "count": 935000 }
+    ]
+  },
+  {
+    "id": 23,
+    "image":"https://icons.iconarchive.com/icons/bokehlicia/captiva/128/web-trello-icon.png",
+    "title": "Trello",
+    "companyName": "Atlassian Corporation Plc",
+    "description": "Trello is a visual project management and collaboration tool built on the Kanban board metaphor. Users create boards representing projects, within which they add lists and cards representing tasks or work items. Cards can contain checklists, attachments, due dates, labels, and comments; they can be moved between lists to reflect progress. Trello is widely used for software development sprints, editorial calendars, event planning, personal goal tracking, and more. Teams can collaborate in real time, assign cards to members, and use power-ups (integrations) like calendar view, automation rules, Slack, Google Drive, and more. For individuals, it’s useful for keeping personal tasks in a structured visual flow. Its simplicity, flexibility, and extensibility have made Trello a favorite for agile teams, small businesses, and even household planning.",
+    "size": 60,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 Star", "count": 20000 },
+      { "name": "2 Star", "count": 30000 },
+      { "name": "3 Star", "count": 100000 },
+      { "name": "4 Star", "count": 400000 },
+      { "name": "5 Star", "count": 700000 }
+    ]
+  },
+  {
+    "id": 24,
+    "image":"https://icons.iconarchive.com/icons/pictogrammers/material/128/forest-icon.png",
+    "title": "Forest",
+    "companyName": "Seekrtech",
+    "description": "Forest is a focus and habit-building app that gamifies productivity. The main idea: when you want to focus, you plant a virtual tree, and as long as you stay off distracting apps, the tree grows. If you leave the app, the tree withers. Over time, you build a forest representing your focused work periods. Forest also allows you to set session durations, break intervals, and track your productivity history. You can compete with friends, plant real trees through their eco partnership, and maintain streaks. Use cases include studying, writing, coding, or any task requiring sustained attention. The visual and gamified feedback encourages staying off distractions, improving focus, and building long-term habits. Many users combine Forest with Pomodoro techniques for structured workflow.",
+    "size": 20,
+    "reviews": 800000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 Star", "count": 5000 },
+      { "name": "2 Star", "count": 15000 },
+      { "name": "3 Star", "count": 40000 },
+      { "name": "4 Star", "count": 200000 },
+      { "name": "5 Star", "count": 540000 }
+    ]
+  },
+  {
+    "id": 25,
+    "image":"https://i.ibb.co.com/hJZYQcYZ/ankidroid.jpg",
+    "title": "AnkiDroid",
+    "companyName": "AnkiDroid Open Source Team",
+    "description": "AnkiDroid is the Android version of the popular spaced repetition flashcard system Anki, used for efficient memorization over time. Users can create their own decks or import existing ones (e.g. language vocabulary, medical terms, historical facts). The app schedules reviews of flashcards based on how well you recall them (hard, good, easy), optimizing retention. It supports multimedia (images, audio, LaTeX), synchronization with AnkiWeb, custom card formatting, and statistics to monitor learning performance. Use cases include language learning, exam preparation, medical or legal study, spaced learning for retention of facts, and long-term knowledge building. Because it adapts to your memory strength, AnkiDroid helps you focus on the weakest items rather than re-studying what you already know well.",
+    "size": 25,
+    "reviews": 500000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 Star", "count": 2000 },
+      { "name": "2 Star", "count": 5000 },
+      { "name": "3 Star", "count": 20000 },
+      { "name": "4 Star", "count": 100000 },
+      { "name": "5 Star", "count": 375000 }
+    ]
+  },
+  {
+    "id": 26,
+    "image":"https://icons.iconarchive.com/icons/blackvariant/button-ui-requests-9/128/MoneyWiz-icon.png",
+    "title": "MoneyWiz",
+    "companyName": "SilverWiz LLC",
+    "description": "MoneyWiz is a comprehensive personal finance and money management app that helps users track income, expenses, budgets, and accounts in one place. It supports connecting to thousands of banks worldwide to auto-import transactions, reconcile accounts, categorize spending, generate reports, and forecast cash flow. It also allows scheduled transactions, bill reminders, multi-currency portfolios, and custom categories. Use cases include household budgeting, freelance income tracking, managing multiple accounts, expense analysis, and financial planning. Its “SYNCbits” sync engine allows data to stay consistent across devices. Thanks to its richly detailed reporting and forecasting, MoneyWiz is suitable both for casual budgeters and power users who want deep insights into their financial behavior. :contentReference[oaicite:0]{index=0}",
+    "size": 50,
+    "reviews": 300000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 Star", "count": 5000 },
+      { "name": "2 Star", "count": 10000 },
+      { "name": "3 Star", "count": 30000 },
+      { "name": "4 Star", "count": 90000 },
+      { "name": "5 Star", "count": 155000 }
+    ]
+  },
+  {
+    "id": 27,
+    "image":"https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Keep-icon.png",
+    "title": "Keep",
+    "companyName": "Beijing Calories Technology",
+    "description": "Keep is a Chinese fitness and workout app that offers a mixture of on-demand video classes, progressive training plans, workout challenges, and community features. Users can choose from activities like strength, cardio, yoga, dance, HIIT, and stretching classes of varying durations and intensities. The app tracks performance metrics such as time, repetitions, calories burned, and heart rate (when paired with devices). It also lets users share workouts in the community, follow others, and join challenge programs. Use cases include building consistent home workouts, following curated training plans, mixing up routines to avoid plateaus, and staying motivated via social features. Because of its large user base in China, Keep also integrates with wearable devices and local content partnerships. :contentReference[oaicite:1]{index=1}",
+    "size": 80,
+    "reviews": 1000000,
+    "ratingAvg": 4.5,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 Star", "count": 10000 },
+      { "name": "2 Star", "count": 25000 },
+      { "name": "3 Star", "count": 75000 },
+      { "name": "4 Star", "count": 300000 },
+      { "name": "5 Star", "count": 625000 }
+    ]
+  },
+  {
+    "id": 28,
+    "image":"https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/128/FlorinCoin-FLO-icon.png",
+    "title": "Flo",
+    "companyName": "Flo Health, Inc.",
+    "description": "Flo is a health app specialized in menstrual cycle, ovulation, and pregnancy tracking. It helps users log symptoms, basal body temperature, moods, weight, sleep, and more to predict cycles and fertility windows. Flo also provides content on women’s health, articles, and personalized insights. For pregnant users, it offers trimester tracking, baby development updates, and checklists. The app uses algorithms and community-based data to improve prediction accuracy. Use cases include tracking periods, planning (or avoiding) pregnancy, understanding hormonal changes, and collecting symptom history for doctor visits. Flo supports reminders, data export, theme modes (including anonymous mode), and health data integration with Apple Health. As of 2024, the app has achieved over 380 million downloads and tens of millions of monthly active users. :contentReference[oaicite:2]{index=2}",
+    "size": 40,
+    "reviews": 800000,
+    "ratingAvg": 4.4,
+    "downloads": 380000000,
+    "ratings": [
+      { "name": "1 Star", "count": 40000 },
+      { "name": "2 Star", "count": 80000 },
+      { "name": "3 Star", "count": 200000 },
+      { "name": "4 Star", "count": 300000 },
+      { "name": "5 Star", "count": 360000 }
+    ]
+  },
+  {
+    "id": 29,
+    "image":"https://icons.iconarchive.com/icons/chrisbanks2/cold-fusion-hd/128/Pocket-icon.png",
+    "title": "Pocket",
+    "companyName": "Read It Later, Inc.",
+    "description": "Pocket is a read-it-later and content-saving app that lets users save articles, videos, and links from across the web for offline reading or viewing. It strips away clutter and organizes saved items with tags and a clean reading interface. Pocket supports offline mode, highlights, text-to-speech, and personalized recommendations. Use cases include collecting articles to read during downtime, curating long-form content, saving research materials, and reducing distractions by saving for later. Some users save videos or web pages while browsing, then access them in a dedicated, minimal environment. With features like offline syncing, content recommendations based on reading habits, and highlighting tools, Pocket becomes a powerful tool for content consumption and knowledge gathering.",
+    "size": 30,
+    "reviews": 500000,
+    "ratingAvg": 4.5,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 Star", "count": 5000 },
+      { "name": "2 Star", "count": 10000 },
+      { "name": "3 Star", "count": 30000 },
+      { "name": "4 Star", "count": 150000 },
+      { "name": "5 Star", "count": 305000 }
+    ]
+  },
+  {
+    "id": 30,
+    "image":"https://icons.iconarchive.com/icons/artdesigner/emoticons/128/stay-away-icon.png",
+    "title": "Forest: Stay Focused",
+    "companyName": "Seekrtech",
+    "description": "(*Note: This is a variant but let's propose another focus app) Forest: Stay Focused works similarly to the previously listed Forest, but with extra gamification and integration features. Users plant virtual trees during work sessions; if they leave the app or open distracting apps, the tree dies. Over time, users build a virtual forest reflecting their focused time. The app additionally offers insights into daily, weekly, and monthly focus patterns, breaks, and productivity graphs. It supports syncing social competitions, goal setting, notifications, and integration with task managers like Todoist. Use cases include combating phone distractions, reinforcing disciplined work blocks, combining with the Pomodoro technique, and habit building through visual progress and motivational rewards.",
+    "size": 25,
+    "reviews": 300000,
+    "ratingAvg": 4.6,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 Star", "count": 4000 },
+      { "name": "2 Star", "count": 10000 },
+      { "name": "3 Star", "count": 25000 },
+      { "name": "4 Star", "count": 120000 },
+      { "name": "5 Star", "count": 141000 }
+    ]
+  },
+  {
+    "id": 31,
+    "image":"https://i.ibb.co.com/VYKhhFF3/poketbook.png",
+    "title": "Pocketbook",
+    "companyName": "Zip Co Limited",
+    "description": "Pocketbook is an Australian personal finance and budgeting app that helps users track spending, manage bills, and create budgets. It connects (where possible) to bank accounts to automatically fetch transactions, categorize expenses, and alert users to upcoming bills or unusual spending. Users can set spending limits, view trend charts, and receive alerts or recommendations based on spending habits. Use cases include reducing overspending, tracking recurring bills, visualizing monthly spending distributions, and receiving notifications when crossing budget thresholds. Its design is tailored to be user-friendly and assist users who may lack financial discipline. It’s popular in Australia, with integration and security measures appropriate for finance apps. :contentReference[oaicite:3]{index=3}",
+    "size": 15,
+    "reviews": 200000,
+    "ratingAvg": 4.2,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 Star", "count": 2000 },
+      { "name": "2 Star", "count": 5000 },
+      { "name": "3 Star", "count": 20000 },
+      { "name": "4 Star", "count": 70000 },
+      { "name": "5 Star", "count": 103000 }
+    ]
+  },
+  {
+    "id": 32,
+    "image":"https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/128/Dollar-icon.png",
+    "title": "ET Money",
+    "companyName": "360 One Wealth & Asset Management",
+    "description": "ET Money is an Indian fintech and wealth management platform offering mutual funds, insurance, fixed deposits, SIPs, and personal finance tools. In addition to tracking spending, ET Money helps users invest in mutual funds with zero commissions, manage multiple financial products in one app, view credit scores, and set up goal-based investments. The app also sends insights, reminders, and educational content to help users make informed choices. Use cases include ordinary users who want to invest small amounts, manage insurance policies, monitor spending, and plan for goals like home purchase or retirement. As of its last known metrics, ET Money had processed billions in investments and had millions of users. :contentReference[oaicite:4]{index=4}",
+    "size": 45,
+    "reviews": 500000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 Star", "count": 10000 },
+      { "name": "2 Star", "count": 20000 },
+      { "name": "3 Star", "count": 80000 },
+      { "name": "4 Star", "count": 180000 },
+      { "name": "5 Star", "count": 210000 }
+    ]
+  },
+  {
+    "id": 33,
+    "image":"https://icons.iconarchive.com/icons/hopstarter/puck/128/AOL-Instant-Messenger-icon.png",
+    "title": "Instant",
+    "companyName": "Emberify",
+    "description": "Instant is a lifelogging or quantified-self app that automatically tracks various aspects of your daily life — app usage, travel, places, steps, fitness, sleep, and more — then presents a dashboard of correlations and trends. No manual input is necessary (though users can add annotations). The app also includes a chatbot-style coach to answer queries like \"How did I spend my time yesterday?\" or \"What’s the correlation between app usage and sleep quality?\" Use cases include self-awareness about digital habits, discovering patterns (for instance, if late-night phone use hurts sleep), optimizing routines, and identifying hidden habits. Instant keeps all data local by default and emphasizes privacy. Because of its passive tracking, it’s attractive to people who dislike manual journaling but want insight into their habits. :contentReference[oaicite:5]{index=5}",
+    "size": 40,
+    "reviews": 100000,
+    "ratingAvg": 4.1,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 Star", "count": 2000 },
+      { "name": "2 Star", "count": 5000 },
+      { "name": "3 Star", "count": 20000 },
+      { "name": "4 Star", "count": 40000 },
+      { "name": "5 Star", "count": 85000 }
+    ]
+  },
+  {
+    "id": 34,
+    "image":"https://icons.iconarchive.com/icons/blackvariant/button-ui-ms-office-2016/128/PowerPoint-2-icon.png",
+    "title": "WPS Office",
+    "companyName": "Kingsoft Office Software Corporation Ltd.",
+    "description": "WPS Office is an all-in-one office suite app for mobile devices, offering word processing, spreadsheets, and presentation tools in a single interface. It supports opening and editing DOC, DOCX, XLS, XLSX, PPT, PPTX, PDF, and other formats. It offers integrated cloud storage, PDF conversion, template galleries, sync, and file sharing. Use cases include editing documents on the go, creating presentations, reviewing reports, and collaborating via file sharing. WPS Office also includes features such as PDF annotations, slide transitions, charts, and layout tools. Because it's lightweight and feature-rich, it’s a go-to for professionals and students who need office functionality beyond just viewing documents on mobile devices.",
+    "size": 100,
+    "reviews": 700000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 Star", "count": 20000 },
+      { "name": "2 Star", "count": 50000 },
+      { "name": "3 Star", "count": 200000 },
+      { "name": "4 Star", "count": 250000 },
+      { "name": "5 Star", "count": 180000 }
+    ]
+  },
+  {
+    "id": 35,
+    "image":"https://i.ibb.co.com/8g5sGQwk/camscanner.jpg",
+    "title": "CamScanner",
+    "companyName": "INTSIG Information Co., Ltd.",
+    "description": "CamScanner is a mobile scanning and document management app that turns your smartphone into a portable scanner. Users can capture documents, receipts, whiteboards, business cards, etc., and then the app auto-crops, corrects perspective, enhances contrast, and converts to PDF or image files. It also supports OCR (optical character recognition) to extract text, annotation tools, sharing via email or cloud, and document organization. Use cases include scanning receipts for expense tracking, digitizing printed documents, sending signed forms, saving lecture notes, and archiving paper documents. CamScanner is especially useful when you don’t have access to a physical scanner and need quick, portable document digitization. It simplifies workflows that involve converting paper to digital format.",
+    "size": 45,
+    "reviews": 1000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 Star", "count": 30000 },
+      { "name": "2 Star", "count": 50000 },
+      { "name": "3 Star", "count": 150000 },
+      { "name": "4 Star", "count": 300000 },
+      { "name": "5 Star", "count": 465000 }
+    ]
+  },
+  {
+    "id": 36,
+    "image":"https://icons.iconarchive.com/icons/bokehlicia/captiva/128/web-slack-icon.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies, Inc.",
+    "description": "Slack is a team communication and collaboration platform that blends real-time messaging, file sharing, and integrations with many productivity tools. Users join “workspaces” and within them create channels for topics, projects, or teams. In channels (or private DMs), users send text, images, files, and reactions, and can mention others, search history, and integrate bots or apps. Slack supports voice and video calls, screen sharing, threads, reminders, and app integrations (Trello, Google Drive, Jira, Zoom, etc.). Use cases include internal company communication, project coordination, remote team work, knowledge sharing, and centralized collaboration. Slack emphasizes reducing email overload by consolidating discussions in organized channels. It's widely adopted in companies, startups, and distributed teams.",
+    "size": 80,
+    "reviews": 1500000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 Star", "count": 25000 },
+      { "name": "2 Star", "count": 40000 },
+      { "name": "3 Star", "count": 100000 },
+      { "name": "4 Star", "count": 500000 },
+      { "name": "5 Star", "count": 850000 }
+    ]
+  },
+  {
+    "id": 37,
+    "image":"https://icons.iconarchive.com/icons/dakirby309/simply-styled/128/Microsoft-OneNote-2013-icon.png",
+    "title": "Microsoft OneNote",
+    "companyName": "Microsoft Corporation",
+    "description": "OneNote is a digital notebook app that enables users to capture, organize, and search notes across multiple notebooks. You can type, draw, insert images, audio, and clip web content. Notes are organized hierarchically with notebooks, sections, and pages. OneNote also supports free-form layout, so you can place content anywhere on a page. It syncs across devices via OneDrive, supports collaboration (share notebooks), and integrates with Office apps like Outlook, Word, and Teams. Use cases include lecture note-taking, meeting minutes, brainstorming, research organization, and personal journaling. Because of its flexibility and strong integration with Microsoft ecosystems, OneNote is widely used in educational institutions and enterprises.",
+    "size": 90,
+    "reviews": 1200000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 Star", "count": 20000 },
+      { "name": "2 Star", "count": 40000 },
+      { "name": "3 Star", "count": 100000 },
+      { "name": "4 Star", "count": 400000 },
+      { "name": "5 Star", "count": 640000 }
+    ]
+  },
+  {
+    "id": 39,
+    "image":"https://i.ibb.co.com/fzsXc1tr/wol-Fram-Alpha.jpg",
+    "title": "WolframAlpha",
+    "companyName": "Wolfram Group LLC",
+    "description": "WolframAlpha is a computational knowledge engine app that answers questions, solves math problems, and provides data-driven insights. Users can input equations, queries about science, statistics, geography, finance, or general facts, and the app returns step-by-step solutions, charts, interpretations, and related data. Use cases include solving homework problems, generating graphs, evaluating integrals, comparing data across domains (e.g. population, economics), and learning through exploration. The app is especially valuable for students, researchers, engineers, and lifelong learners. Because it’s backed by the Wolfram Language, its power lies in structured computation and intelligent data retrieval rather than simple search. The mobile app provides a polished front-end to the engine, supporting history, saving queries, and interactive output.",
+    "size": 50,
+    "reviews": 400000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 Star", "count": 3000 },
+      { "name": "2 Star", "count": 7000 },
+      { "name": "3 Star", "count": 20000 },
+      { "name": "4 Star", "count": 100000 },
+      { "name": "5 Star", "count": 273000 }
+    ]
+  },
+  {
+    "id": 40,
+    "image":"https://icons.iconarchive.com/icons/aha-soft/standard-portfolio/128/Graphic-designer-icon.png",
+    "title": "Duet Display",
+    "companyName": "Duet, Inc.",
+    "description": "Duet Display allows users to turn an iPad, Android tablet, or secondary device into an external display for their computer (macOS or Windows). It supports wired and wireless connection, touch input, and drawing via Apple Pencil or stylus on compatible devices. Use cases include extending workspace for coding, design, writing, video editing, or multitasking. It effectively gives you a portable second screen. The app also supports frame rates, retina resolution, and pressure sensitivity (on supported hardware). For professionals working on the go, Duet Display helps increase productivity by giving more screen real estate without carrying a full external monitor. It’s especially useful for creators, developers, and multitaskers who want to maximize workspace flexibility.",
+    "size": 35,
+    "reviews": 200000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 Star", "count": 2000 },
+      { "name": "2 Star", "count": 6000 },
+      { "name": "3 Star", "count": 20000 },
+      { "name": "4 Star", "count": 60000 },
+      { "name": "5 Star", "count": 112000 }
+    ]
+  },
+  {
+    "id": 41,
+    "image":"https://icons.iconarchive.com/icons/dakirby309/simply-styled/128/Microsoft-Access-2010-icon.png",
+    "title": "Alamy",
+    "companyName": "Alamy Inc.",
+    "description": "Alamy is a clever alarm clock app designed to get even heavy sleepers out of bed by requiring tasks to turn off the alarm, like solving math problems, taking a photo of a registered location, or shaking the phone. It features a variety of alarm melodies, snooze limits, weather display, and integration with calendar events. Use cases include waking up reliably, preventing oversleep for important appointments or flights, creating wake routines (by linking morning tasks), and combining with sleep tracking apps. Because it forces deliberate actions, Alamy helps break groggy dismissal of alarms and enforces real wakefulness. It’s popular among users who struggle with standard alarm apps or oversleeping.",
+    "size": 15,
+    "reviews": 400000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 Star", "count": 5000 },
+      { "name": "2 Star", "count": 15000 },
+      { "name": "3 Star", "count": 40000 },
+      { "name": "4 Star", "count": 120000 },
+      { "name": "5 Star", "count": 215000 }
+    ]
+  },
+  {
+    "id": 42,
+    "image":"https://i.ibb.co.com/M5xMDd6P/habitica.jpg",
+    "title": "Habitica",
+    "companyName": "HabitRPG Inc.",
+    "description": "Habitica is a habit tracking and productivity app that gamifies your daily tasks, habits, and goals by turning them into a role-playing game (RPG). You create an avatar and earn experience, rewards, and in-game currency by completing real-life tasks and habits. Failing to complete tasks causes consequences in-game. You can join groups (called guilds), complete challenges, and collaborate in party quests to stay motivated. Use cases include building positive habits (exercise, reading, coding), breaking bad habits, maintaining consistency, and making productivity fun. Because it blends RPG mechanics with real goals, Habitica appeals to users who respond to gamification and social accountability. It supports customization, reminders, streaks, and reward systems to maintain engagement.",
+    "size": 40,
+    "reviews": 200000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 Star", "count": 3000 },
+      { "name": "2 Star", "count": 10000 },
+      { "name": "3 Star", "count": 30000 },
+      { "name": "4 Star", "count": 60000 },
+      { "name": "5 Star", "count": 97000 }
+    ]
+  },
+  {
+    "id": 43,
+    "image":"https://i.ibb.co.com/nNzht2FW/khan-acadeni.png",
+    "title": "Khan Academy",
+    "companyName": "Khan Academy",
+    "description": "Khan Academy is a nonprofit educational platform providing free courses and learning resources across many subjects: math, science, history, economics, computing, test prep, and more. The mobile app offers video lessons, interactive exercises, progress tracking, and offline access. Students can follow structured learning paths, get hints, and track mastery over concepts. Use cases include supplementing school coursework, self-paced learning, exam preparation (e.g. SAT, GRE), revisiting weak topics, and expanding knowledge in new domains. Because the app is free and high quality, it’s widely used in many countries. Khan Academy’s mission is to provide a world-class education to anyone, anywhere. The app also includes quizzes and performance analytics to help learners and educators monitor progress.",
+    "size": 60,
+    "reviews": 1000000,
+    "ratingAvg": 4.7,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 Star", "count": 10000 },
+      { "name": "2 Star", "count": 20000 },
+      { "name": "3 Star", "count": 50000 },
+      { "name": "4 Star", "count": 200000 },
+      { "name": "5 Star", "count": 720000 }
+    ]
+  },
+  {
+    "id": 44,
+    "image":"https://i.ibb.co.com/jP4QCvKj/photo-Math.png",
+    "title": "Photomath",
+    "companyName": "Photomath, Inc.",
+    "description": "Photomath is an educational app that uses the camera to scan handwritten or printed math problems and then provides step-by-step solutions, explanations, graphs, and alternate methods. It supports arithmetic, algebra, trigonometry, calculus, statistics, and more. Use cases include helping students check homework, learning problem-solving steps, exploring multiple solution paths, and validating calculations. The app also includes a calculator, history log, hints, and interactive graphs. Because it visually translates handwritten math into digital form and explains each step, it’s especially valuable for self-learning, tutoring, or reinforcing classroom lessons. Photomath bridges the gap between passive answer-looking and understanding the rationale behind solutions.",
+    "size": 40,
+    "reviews": 800000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 Star", "count": 5000 },
+      { "name": "2 Star", "count": 15000 },
+      { "name": "3 Star", "count": 50000 },
+      { "name": "4 Star", "count": 200000 },
+      { "name": "5 Star", "count": 530000 }
+    ]
+  },
+  {
+    "id": 45,
+    "image":"https://icons.iconarchive.com/icons/academicons-team/academicons/128/coursera-square-icon.png",
+    "title": "Coursera",
+    "companyName": "Coursera, Inc.",
+    "description": "Coursera is a major online learning platform offering MOOCs (massive open online courses) created by top universities and organizations globally. The mobile app allows users to browse courses, download lectures, submit assignments, take quizzes, and follow learning paths across domains such as computer science, business, data science, arts, and personal development. Use cases include upskilling, career transition, obtaining certificates, supplementing formal education, or pursuing personal interests. The app supports nanodegree sequences, specialization tracks, peer-graded assignments, and offline access. Because Coursera partners with leading institutions, it offers recognized credentials. The flexibility of mobile learning enables learners to study on the go and stay consistent even with busy schedules.",
+    "size": 120,
+    "reviews": 1200000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 Star", "count": 20000 },
+      { "name": "2 Star", "count": 50000 },
+      { "name": "3 Star", "count": 150000 },
+      { "name": "4 Star", "count": 400000 },
+      { "name": "5 Star", "count": 580000 }
+    ]
+  }
+]

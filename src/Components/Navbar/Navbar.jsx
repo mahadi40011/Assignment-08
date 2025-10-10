@@ -1,12 +1,10 @@
-import React, { useState } from "react";
 import ContainerLayout from "../../Layout/ContainerLayout";
 import { NavLink, useNavigate } from "react-router";
 import { FaGithub } from "react-icons/fa";
 import logo from "../../assets/logo.png";
 import { RiMenuFoldFill, RiMenuUnfoldFill } from "react-icons/ri";
 
-const Navbar = () => {
-  const [navbarOpen, setNavbarOpen] = useState(false);
+const Navbar = ({navbarOpen, setNavbarOpen}) => {
 
   const navItems = [
     { id: 0, name: "Home", path: "/" },
@@ -51,8 +49,8 @@ const Navbar = () => {
                 <ul
                   onClick={() => setNavbarOpen(false)}
                   tabIndex={0}
-                  className={`menu menu-sm dropdown-content rounded-b-lg z-1 mt-3 w-fit shadow absolute bg-base-100 duration-1000 ${
-                    navbarOpen ? "" : "-ml-64"
+                  className={`menu menu-sm dropdown-content rounded-b-lg z-1 mt-3 w-fit shadow absolute bg-base-100 duration-1000 md:hidden ${
+                    navbarOpen ? "" : "-ml-[1000px]"
                   }`}
                 >
                   {navLink}
@@ -61,12 +59,12 @@ const Navbar = () => {
 
             <div
               onClick={handleLogoClick}
-              className="justify-center items-center gap-2 cursor-pointer"
+              className="flex justify-center items-center gap-2 cursor-pointer"
             >
               <img
                 src={logo}
                 alt="logo"
-                className="w-10 h-10 md:w-12 md:h-12 sm:hidden ml-3"
+                className="w-10 h-10 md:w-12 md:h-12 sm:hidden lg:block ml-3"
               />
               <span className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent text-3xl font-bold lg:flex hidden md:block">
                 HERO.APPS

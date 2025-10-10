@@ -9,6 +9,10 @@ const Installation = () => {
   const [myApps, setMyApps] = useState([]);
   const [sort, setSort] = useState("");
 
+   useEffect(()=>{
+      window.scrollTo(0,0)
+    },[])
+
   useEffect(() => {
     if (loading) return;
     const dataSTR = getFromLS();
